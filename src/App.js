@@ -26,6 +26,7 @@ function App() {
           <Route path="/a">
             <Header />
             <Algo />
+            <Footer />
           </Route>
           <Route path="/">
 
