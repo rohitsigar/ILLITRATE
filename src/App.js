@@ -11,6 +11,7 @@ import ComponentCard from "./ComponentCard";
 import Home from "./Components/Home";
 import "./App.css";
 import Footer from "./Components/Footer";
+import ScrollAnimation from "react-animate-on-scroll";
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
               sideimage="https://w1.pngwing.com/pngs/828/644/png-transparent-book-black-and-white-rubiks-cube-coloring-book-puzzle-puzzle-cube-drawing-game-threedimensional-space.png"
             />
 
-      <Footer />
+            <Footer />
 
           </Route>
         </Switch>

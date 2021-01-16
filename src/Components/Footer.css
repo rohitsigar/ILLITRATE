@@ -1,7 +1,9 @@
 .Footer{
     position: static;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   bottom: 0;
   margin-top: 20px;
   padding: 20px;
@@ -10,6 +12,11 @@
   background-color: #312c51;
 } 
 
-.Content{
-    color:#fff;
+.Name{
+    color:#f0c38e;
+    font-size: 1rem;
+}
+
+.Copyright{
+  color:#f0c38e;
 }
