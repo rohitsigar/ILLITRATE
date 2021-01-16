@@ -11,7 +11,7 @@ import ComponentCard from "./ComponentCard";
 import Home from "./Components/Home";
 import "./App.css";
 import Footer from "./Components/Footer";
-import ScrollAnimation from "react-animate-on-scroll";
+
 
 function App() {
   return (
