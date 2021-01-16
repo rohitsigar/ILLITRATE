@@ -1,0 +1,9 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 400px 100px;
+    color: rgb(219, 219, 219);
+    text-align: center;
+    
+}
