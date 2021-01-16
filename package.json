@@ -10,10 +10,12 @@
     "bootstrap": "^4.5.3",
     "font-awesome": "^4.7.0",
     "framer-motion": "^3.2.1",
+    "node-sass": "^5.0.0",
     "react": "^17.0.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
+    "react-elastic-carousel": "^0.11.0",
     "react-lottie": "^1.2.3",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
@@ -22,6 +24,7 @@
     "react-tilt": "^0.1.4",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.1",
+    "swiper": "^6.4.5",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
