@@ -13,7 +13,8 @@ import About from "./Components/About";
 import puzzle from "./Assets/Puzzle.png";
 import cube from "./Assets/cube.png";
 
-import ScrollAnimation from "react-animate-on-scroll";
+
+
 
 
 
@@ -22,6 +23,9 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
+          <Route path="/train">
+            <LinearSearch />
+          </Route>
           <Route path="/algo">
             <Header />
             <LinearSearch />
@@ -42,12 +46,13 @@ function App() {
               buttonContent="do practice »"
               sideimage={cube}
             />
-         <About/>
+            <About />
 
 
             <Footer />
 
           </Route>
+
         </Switch>
       </div>
     </Router>
