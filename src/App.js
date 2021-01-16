@@ -7,9 +7,13 @@ import ComponentCard from "./ComponentCard";
 import Home from "./Components/Home";
 import "./App.css";
 import Footer from "./Components/Footer";
+
 import About from "./Components/About";
 import puzzle from "./Assets/Puzzle.png";
 import cube from "./Assets/cube.png";
+
+import ScrollAnimation from "react-animate-on-scroll";
+
 
 function App() {
   return (
@@ -36,8 +40,8 @@ function App() {
               buttonContent="do practice »"
               sideimage={cube}
             />
+         <About/>
 
-            <About/>
 
             <Footer />
 
