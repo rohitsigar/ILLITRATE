@@ -7,15 +7,12 @@ import ComponentCard from "./ComponentCard";
 import Home from "./Components/Home";
 import "./App.css";
 import Footer from "./Components/Footer";
+import Algo from "./Components/Algo";
 
 
 import About from "./Components/About";
 import puzzle from "./Assets/Puzzle.png";
 import cube from "./Assets/cube.png";
-
-
-
-
 
 
 function App() {
@@ -29,6 +26,11 @@ function App() {
           <Route path="/algo">
             <Header />
             <LinearSearch />
+          </Route>
+          <Route path="/a">
+            <Header />
+            <Algo />
+            <Footer />
           </Route>
           <Route path="/">
 
