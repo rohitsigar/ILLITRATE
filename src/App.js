@@ -11,6 +11,7 @@ import ComponentCard from "./ComponentCard";
 import Home from "./Components/Home";
 import "./App.css";
 import Footer from "./Components/Footer";
+import Algo from "./Components/Algo";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
           <Route path="/algo">
             <Header />
             <LinearSearch />
+          </Route>
+          <Route path="/a">
+            <Header />
+            <Algo />
           </Route>
           <Route path="/">
 
