@@ -5,6 +5,8 @@ import Lottie from 'react-lottie';
 import PuzzleAnime from "../Lottie/HomeAnime.json";
 
 
+
+
 const Section = styled.section`
 height: 100vh;
 display: flex;
@@ -58,6 +60,7 @@ position:relative;
 export default function Home() {
 
     return (
+        <motion.div animate={{opacity:1}} initial={{ opacity:0}}>
         <Section>
             <Container>
                 <ColumnLeft>
@@ -81,7 +84,7 @@ export default function Home() {
                 </ColumnRight>
             </Container>
         </Section>
-
+</motion.div>
 
     )
 }
