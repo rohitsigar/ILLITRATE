@@ -1,0 +1,19 @@
+.header-button{
+    background-color: transparent;
+    color: whitesmoke;
+    transition: 0.5s;
+    width: 150px;
+    border: 2px solid #f0b28e;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px;
+    font-size: 100%;
+    outline-style: none;
+}
+
+.header-button:hover{
+    background-color: #f17b19;
+    border: none;
+    color: rgb(2, 2, 2);
+    font-size: 130%;
+}
