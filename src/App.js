@@ -14,7 +14,6 @@ import cube from "./Assets/cube.png";
 
 import ScrollAnimation from "react-animate-on-scroll";
 
-
 function App() {
   return (
     <Router>
@@ -25,7 +24,6 @@ function App() {
             <LinearSearch />
           </Route>
           <Route path="/">
-
             <Header />
             <Home />
             <ComponentCard
@@ -40,11 +38,9 @@ function App() {
               buttonContent="do practice »"
               sideimage={cube}
             />
-         <About/>
-
+            <About />
 
             <Footer />
-
           </Route>
         </Switch>
       </div>
