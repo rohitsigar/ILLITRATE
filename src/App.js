@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import LinearSearch from "./Components/LinearSearch";
 import "./App.css";
-import ComponentCard from "./ComponentCard";
+import ComponentCard from "./Components/ComponentCard";
 import Home from "./Components/Home";
 import "./App.css";
 import Footer from "./Components/Footer";
@@ -44,7 +44,6 @@ function App() {
               sideimage={cube}
             />
             <About />
-
             <Footer />
           </Route>
         </Switch>
