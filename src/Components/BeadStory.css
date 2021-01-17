@@ -1,0 +1,39 @@
+.binary_search {
+    /* background-color: gray; */
+    height: auto;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .binary_story{
+    margin-top: 60px;
+  }
+
+  .mystery {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 95px;
+    font-family: "Yusei Magic", sans-serif;
+    margin-top: 50px;
+  }
+  .bead{
+    color: #ff7b54;
+    display: block;
+    font-family: "Yusei Magic", sans-serif;
+    font-size: 150px;
+  }
+
+  .diamond {
+    width: 12%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
