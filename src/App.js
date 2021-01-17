@@ -1,17 +1,23 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Components/Header";
-import LinearSearch from "./Components/LinearSearch";
+import CompleStory from "./Components/CompleStory";
 import "./App.css";
-import ComponentCard from "./ComponentCard";
+import ComponentCard from "./Components/ComponentCard";
 import Home from "./Components/Home";
 import "./App.css";
 import Footer from "./Components/Footer";
 import Algo from "./Components/Algo";
+
+import LinearSearch from "./Components/LinearSearch";
+
+
 import About from "./Components/About";
 import puzzle from "./Assets/Puzzle.png";
 import cube from "./Assets/cube.png";
 
+
+import ScrollAnimation from "react-animate-on-scroll";
 
 
 function App() {
@@ -19,12 +25,14 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
+
           <Route path="/train">
+
             <LinearSearch />
           </Route>
           <Route path="/algo">
             <Header />
-            <LinearSearch />
+            <CompleStory />
           </Route>
           <Route path="/a">
             <Header />
@@ -32,7 +40,6 @@ function App() {
             <Footer />
           </Route>
           <Route path="/">
-
             <Header />
             <Home />
             <ComponentCard
@@ -48,10 +55,7 @@ function App() {
               sideimage={cube}
             />
             <About />
-
-
             <Footer />
-
           </Route>
 
         </Switch>
