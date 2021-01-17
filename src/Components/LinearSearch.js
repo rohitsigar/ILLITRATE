@@ -286,7 +286,7 @@ const findId9 =  ()=>{
       Thief9();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
-      Message3 = "Passenger Weight : " + Weight[9] + " kg";
+         Message3 = "Passenger Weight : " + Weight[2] + " kg";
     }
     else
     {
