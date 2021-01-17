@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./LinearSearch.css";
 import Card from "./Card";
 var Weight = new Array(1,2,3,4,5,6,7,8,9,10,11);
-var Message3 = "Pasanger Weight : " + 0;
+var Message3 = "Weight";
 var Message1 = "Ready to Scratch a Lie! 😜";
 var Message2 = "Traverse the array";
 var PoliceMan = 1;
@@ -53,18 +53,19 @@ console.log(PoliceMan);
 const findId1 =  ()=>{
   if(PoliceMan==1)
   {
-    if(Thief==1)
+    if(Weight[Thief]==Weight[1])
     {
       Thief1();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "st index of the Compartment";
+      
      }
     else
     {
       findTrain10();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[1];
+      Message3 = "Passenger Weight : " + Weight[1] + "kg";
       PoliceMan++;
     }
   }
@@ -72,7 +73,7 @@ const findId1 =  ()=>{
 const findId2 =  ()=>{
   if(PoliceMan==2)
   {
-    if(Thief==2)
+    if(Weight[Thief]==Weight[2])
     {
       Thief2();
       findTrain11();
@@ -85,7 +86,7 @@ const findId2 =  ()=>{
       findTrain20();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[2];
+      Message3 = "Passenger Weight : " + Weight[2] + "kg";
       PoliceMan++;
     }
   }
@@ -99,7 +100,7 @@ const findId2 =  ()=>{
 const findId3 =  ()=>{
 if(PoliceMan==3)
   {
-    if(Thief==3)
+    if(Weight[Thief]==Weight[3])
     {
       Thief3();
       findTrain21();
@@ -112,7 +113,7 @@ if(PoliceMan==3)
       findTrain30();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[3];
+      Message3 = "Passenger Weight : " + Weight[3] + "kg";
       PoliceMan++;
     }
   }
@@ -126,7 +127,7 @@ if(PoliceMan==3)
 const findId4 =  ()=>{
 if(PoliceMan==4)
   {
-    if(Thief==4)
+    if(Weight[Thief]==Weight[4])
     {
       Thief4();
       findTrain31();
@@ -139,7 +140,7 @@ if(PoliceMan==4)
       findTrain40();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[4];
+      Message3 = "Passenger Weight : " + Weight[4] + "kg";
       PoliceMan++;
     }
   }
@@ -153,7 +154,7 @@ if(PoliceMan==4)
 const findId5 =  ()=>{
 if(PoliceMan==5)
   {
-    if(Thief==5)
+    if(Weight[Thief]==Weight[5])
     {
       findTrain41();
       Thief5();
@@ -166,7 +167,7 @@ if(PoliceMan==5)
       findTrain50();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[5];
+      Message3 = "Passenger Weight : " + Weight[5] + "kg";
       PoliceMan++;
     }
   }
@@ -180,7 +181,7 @@ if(PoliceMan==5)
 const findId6 =  ()=>{
 if(PoliceMan==6)
   {
-    if(Thief==6)
+    if(Weight[Thief]==Weight[6])
     {
       Thief6();
       findTrain51();
@@ -193,7 +194,7 @@ if(PoliceMan==6)
       findTrain60();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[6];
+      Message3 = "Passenger Weight : " + Weight[6] + "kg";
       PoliceMan++;
     }
   }
@@ -207,7 +208,7 @@ if(PoliceMan==6)
 const findId7 =  ()=>{
 if(PoliceMan==7)
   {
-    if(Thief==7)
+    if(Weight[Thief]==Weight[7])
     {
       Thief7();
       findTrain61();
@@ -220,7 +221,7 @@ if(PoliceMan==7)
       findTrain70();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[7];
+      Message3 = "Passenger Weight : " + Weight[7] + "kg";
       PoliceMan++;
     }
   }
@@ -233,9 +234,9 @@ if(PoliceMan==7)
 } 
 
 const findId8 =  ()=>{
-if(PoliceMan==8)
+if(Weight[Thief]==Weight[8])
   {
-    if(trial.Thief==8)
+    if(Thief==8)
     {
       Thief8();
       findTrain71();
@@ -248,7 +249,7 @@ if(PoliceMan==8)
       findTrain80();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[8];
+      Message3 = "Passenger Weight : " + Weight[8] + "kg";
       PoliceMan++;
     }
   }
@@ -262,7 +263,7 @@ if(PoliceMan==8)
 const findId9 =  ()=>{
   if(PoliceMan==9)
   {
-    if(Thief==9)
+    if(Weight[Thief]==Weight[9])
     {
       findTrain81();
       Thief9();
@@ -275,7 +276,7 @@ const findId9 =  ()=>{
       findTrain90();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[9];
+      Message3 = "Passenger Weight : " + Weight[9] + "kg";
       PoliceMan++;
     }
   }
@@ -289,13 +290,13 @@ const findId9 =  ()=>{
 const findId10 =  ()=>{
 if(PoliceMan==10)
   {
-    if(Thief==10)
+    if(Weight[Thief]==Weight[10])
     {
       findTrain91();
       Thief10();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
-      Message3 = "Pasanger Weight : " + Weight[10];
+      Message3 = "Passenger Weight : " + Weight[10] + "kg";
     }
     else
     {
