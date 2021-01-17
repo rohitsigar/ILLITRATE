@@ -1,9 +1,10 @@
-import React from 'react'
-import "./cardComponent.css"
+import React from 'react';
+import "./cardComponent.css";
+import { Link } from 'react-router-dom'
 
 import Tilt from "react-tilt"
 
-function componentCard(props) {
+function componentCard(props,{buttonContent}) {
     return (
       <div className="ComponentCard">
         <Tilt
@@ -19,14 +20,9 @@ function componentCard(props) {
            align-items-start">
             <div className="hackathon__title">{props.headline}</div>
             <div className="hackathon__duration"> {props.para}</div>
-
-            <a
-              href="https://hackathon.dscwow.tech/"
-              target="_blank"
-              rel="noopener"
-            >
-              <button class="buttonfx slideleft">{props.buttonContent}</button>
-            </a>
+            <Link to="/Algorithm">
+            <button className="buttonfx slideleft">Learn from Here »</button>
+            </Link>
           </div>
           <img
 
