@@ -15,6 +15,7 @@ import BinarySearch from "./Components/BinarySearch";
 import About from "./Components/About";
 import puzzle from "./Assets/Puzzle.png";
 import cube from "./Assets/cube.png";
+import BeadStory from "./Components/BeadStory";
 
 
 function App() {
@@ -33,6 +34,10 @@ function App() {
           <Route path="/algo">
             <Header />
             <CompleStory />
+          </Route>
+          <Route path="/binary">
+          <Header/>
+            <BeadStory/>
           </Route>
           <Route path="/a">
             <Header />
