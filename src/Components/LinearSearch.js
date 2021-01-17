@@ -57,6 +57,9 @@ if(b)
 }
 console.log(Thief);
 console.log(PoliceMan);
+
+//Thief=10;
+
 const findId1 =  ()=>{
   if(PoliceMan==1)
   {
@@ -100,7 +103,7 @@ const findId2 =  ()=>{
   else{
     console.log("2 box");
     imp();
-    Message1 = "Congratulations! You caught the thief 🤩!";
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
     Message2 = "You found the required number on " + PoliceMan + "rd index of the Compartment";
   }
 } 
@@ -241,9 +244,13 @@ if(PoliceMan==7)
 } 
 
 const findId8 =  ()=>{
-if(Weight[Thief]==Weight[8])
+
+
+    if(PoliceMan==8)
+
   {
-    if(Thief==8)
+    if(Weight[Thief]==Weight[8])
+
     {
       Thief8();
       findTrain71();
@@ -327,7 +334,7 @@ const findTrain10 = ()=>
 }
 const findTrain11 = ()=>
 {
-  setPhoto1("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
+  setPhoto1("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1Opacity%20(1).png?raw=true");
 }
 const findTrain20 = ()=>
 {
@@ -335,7 +342,7 @@ const findTrain20 = ()=>
 }
 const findTrain21 = ()=>
 {
-  setPhoto2("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2.png?raw=true");
+  setPhoto2("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2Opacity.png?raw=true");
 }
 const findTrain30 = ()=>
 {
@@ -343,7 +350,7 @@ const findTrain30 = ()=>
 }
 const findTrain31 = ()=>
 {
-  setPhoto3("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train3.png?raw=true");
+  setPhoto3("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1Opacity%20(1).png?raw=true");
 }
 const findTrain40 = ()=>
 {
@@ -351,7 +358,7 @@ const findTrain40 = ()=>
 }
 const findTrain41 = ()=>
 {
-  setPhoto4("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train4.png?raw=true");
+  setPhoto4("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train4Opacity.png?raw=true");
 }
 const findTrain50 = ()=>
 {
@@ -359,7 +366,7 @@ const findTrain50 = ()=>
 }
 const findTrain51 = ()=>
 {
-  setPhoto5("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
+  setPhoto5("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1Opacity%20(1).png?raw=true");
 }
 const findTrain60 = ()=>
 {
@@ -367,7 +374,7 @@ const findTrain60 = ()=>
 }
 const findTrain61 = ()=>
 {
-  setPhoto6("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2.png?raw=true");
+  setPhoto6("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2Opacity.png?raw=true");
 }
 const findTrain70 = ()=>
 {
@@ -375,7 +382,7 @@ const findTrain70 = ()=>
 }
 const findTrain71 = ()=>
 {
-  setPhoto7("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train3.png?raw=true");
+  setPhoto7("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1Opacity%20(1).png?raw=true");
 }
 const findTrain80 = ()=>
 {
@@ -383,7 +390,7 @@ const findTrain80 = ()=>
 }
 const findTrain81 = ()=>
 {
-  setPhoto8("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train4.png?raw=true");
+  setPhoto8("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train4Opacity.png?raw=true");
 }
 const findTrain90 = ()=>
 {
@@ -391,7 +398,7 @@ const findTrain90 = ()=>
 }
 const findTrain91 = ()=>
 {
-  setPhoto9("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
+  setPhoto9("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1Opacity%20(1).png?raw=true");
 }
 const findTrain100 = ()=>
 {
@@ -399,7 +406,7 @@ const findTrain100 = ()=>
 }
 const findTrain101 = ()=>
 {
-  setPhoto10("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2.png?raw=true");
+  setPhoto10("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2Opacity.png?raw=true");
 }
 const Thief1 = ()=>
 {
@@ -455,10 +462,10 @@ const imp = ()=>
   return <div className="linearSearch">
   <div className="CardCSS">
   <Card 
-    message={Message1}
+    message={`Result = ${Message1}`}
   />
   <Card 
-    message={Message2}
+    message={`Code Logic = ${Message2}`}
   />
   <Card 
     message={Message3}
@@ -484,7 +491,7 @@ const imp = ()=>
       <img src={photo10} className="image" alt="/"></img>
     </button>
  <div>
-   <h1 className="scrollDown" ref={commentSection}>gjhjdhidjwiofjeowd </h1>
+   <h1 className="scrollDown" ref={commentSection}>Click On the Compartment To Catch The Thief</h1>
  </div>
   
 
