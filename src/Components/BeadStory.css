@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Molle:ital@1&family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Yusei+Magic&display=swap");
+
+.binary_search {
+  /* background-color: #f0c38e; */
+  height: auto;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.binary_story {
+  display: flex;
+  margin: 50px;
+}
+.binary_start {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  text-align: start;
+  margin-top: 10%;
+  flex: 1;
+}
+
+.binary_story {
+  margin-top: 60px;
+}
+
+.binary__code {
+  width: 50%;
+  margin: 30px;
+}
+
+.binary_timeCom {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+}
+
+.binary__blog {
+  background-color: #fff;
+  border-radius: 5px;
+  animation: ease-in;
+  transition: 0.5s;
+  margin: 50px;
+  padding: 70px;
+}
+
+.binary__blog:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.binary__blog > h2 {
+  font-size: 110px;
+  font-weight: bolder;
+  color: #83a95c;
+  font-family: "Chicle", cursive;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.binary__blog > p {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+}
+
+.binary__blog > h4 {
+  font-size: 80px;
+  font-weight: bolder;
+  color: #83a95c;
+  font-family: "Chicle", cursive;
+  text-align: start;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.binary__blog ul {
+  padding: 10px;
+  padding-left: 50px;
+  font-size: 40px;
+  color: gray;
+}
+
+.binary_step {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+.binary_diff {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+}
+
+.binary__con {
+  font-size: 30px;
+  color: #83a95c;
+  font-family: "Ubuntu", sans-serif;
+  text-align: start;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.mystery {
+  display: block;
+  color: #07689f;
+  font-size: 95px;
+  font-family: "Yusei Magic", sans-serif;
+  margin-top: 160px;
+}
+.beady {
+  color: #fdfdfd;
+  display: inline-block;
+  font-size: 95px;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.diamond {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.diamond_area {
+  flex: 0.5;
+}
+/* top part */
+
+.hello {
+  color: #ffc93c;
+  font-weight: 800;
+  font-size: 60px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.beautiful {
+  color: #54e346;
+}
+
+.gem {
+  color: #9ddfd3;
+}
+
+.string {
+  color: #ee6f57;
+}
+
+/* mid part1 */
+
+.binary_midway > p {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  text-align: start;
+  margin-top: 10%;
+}
+
+.detective {
+  color: #e79cc2;
+}
+
+.robber {
+  color: #c70039;
+}
+
+.x {
+  color: #50d890;
+}
+
+.escape {
+  color: #000;
+}
+.diamond_storyparttwo {
+  height: 400px;
+  margin-top: 100px;
+}
+
+/* midpart2 */
+.meeting {
+  color: #fa9579;
+}
+.fair {
+  color: #d6b0b1;
+}
+.good {
+  color: #d89216;
+}
+.bad {
+  color: #433d3c;
+}
+
+/* //last part */
+
+.binary_last {
+  font-weight: 600;
+  font-size: 43px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  flex: 1;
+  margin-top: 10%;
+  text-align: end;
+}
+
+.role {
+  color: #c56183;
+}
+
+.reach {
+  color: #d08752;
+}
+
+.hint_statement {
+  color: #799351;
+}
+
+.hint {
+  color: #ea5455;
+}
+
+.diamond_game {
+  flex: 0.7;
+}
+
+.beads__beads {
+  margin-bottom: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.bead__tsk {
+  font-weight: 600;
+  font-size: 60px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #f0ac45;
+}
+
+.problemStatement {
+  height: auto;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  border: 5px solid rgb(243, 212, 108);
+  border-radius: 3px;
+}
+.problemStatement > h1 {
+  font-weight: 600;
+  font-size: 50px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #f2e375;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.problemStatement > p {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  text-align: start;
+}
+.beads__click {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  margin-bottom: 200px;
+}
