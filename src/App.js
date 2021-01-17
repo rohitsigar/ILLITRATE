@@ -8,8 +8,8 @@ import Home from "./Components/Home";
 import "./App.css";
 import Footer from "./Components/Footer";
 import Algo from "./Components/Algo";
-
 import LinearSearch from "./Components/LinearSearch";
+import BinarySearch from "./Components/BinarySearch";
 
 
 import About from "./Components/About";
@@ -17,19 +17,20 @@ import puzzle from "./Assets/Puzzle.png";
 import cube from "./Assets/cube.png";
 
 
-import ScrollAnimation from "react-animate-on-scroll";
-
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Switch>
-
           <Route path="/train">
 
             <LinearSearch />
           </Route>
+          <Route path="/building">
+
+<BinarySearch/>
+</Route>
           <Route path="/algo">
             <Header />
             <CompleStory />
