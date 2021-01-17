@@ -1,0 +1,40 @@
+.linearSearch{
+   
+    text-align: center;
+}
+
+.drum {
+    /* outline: none;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+   
+  
+    border-radius: 15px;
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    margin: 10px; */
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+  }
+  .Engine{
+      width: 160px;
+      height: 160px;
+  }
+
+  .image{
+      padding:0;
+    width: 130px;
+    height: 130px;
+  }
+
+ .CardCSS{
+     margin-left: 50%;
+      display: flex;
+      flex-direction: row;
+  }
