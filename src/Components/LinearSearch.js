@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import "./LinearSearch.css";
 import Card from "./Card";
 var Weight = new Array(1,2,3,4,5,6,7,8,9,10,11);
-var Message3 = "Pasanger Weight : " + 0;
+var Message3 = "Weight";
 var Message1 = "Ready to Scratch a Lie! 😜";
 var Message2 = "Traverse the array";
 var PoliceMan = 1;
@@ -60,19 +60,19 @@ console.log(PoliceMan);
 const findId1 =  ()=>{
   if(PoliceMan==1)
   {
-    if(Thief==1)
+    if(Weight[Thief]==Weight[1])
     {
       Thief1();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "st index of the Compartment";
-     
+
      }
     else
     {
       findTrain10();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[1];
+      Message3 = "Passenger Weight : " + Weight[1] + "kg";
       PoliceMan++;
     }
   }
@@ -80,7 +80,7 @@ const findId1 =  ()=>{
 const findId2 =  ()=>{
   if(PoliceMan==2)
   {
-    if(Thief==2)
+    if(Weight[Thief]==Weight[2])
     {
       Thief2();
       findTrain11();
@@ -93,7 +93,7 @@ const findId2 =  ()=>{
       findTrain20();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[2];
+      Message3 = "Passenger Weight : " + Weight[2] + "kg";
       PoliceMan++;
     }
   }
@@ -107,7 +107,7 @@ const findId2 =  ()=>{
 const findId3 =  ()=>{
 if(PoliceMan==3)
   {
-    if(Thief==3)
+    if(Weight[Thief]==Weight[3])
     {
       Thief3();
       findTrain21();
@@ -120,7 +120,7 @@ if(PoliceMan==3)
       findTrain30();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[3];
+      Message3 = "Passenger Weight : " + Weight[3] + "kg";
       PoliceMan++;
     }
   }
@@ -134,7 +134,7 @@ if(PoliceMan==3)
 const findId4 =  ()=>{
 if(PoliceMan==4)
   {
-    if(Thief==4)
+    if(Weight[Thief]==Weight[4])
     {
       Thief4();
       findTrain31();
@@ -147,7 +147,7 @@ if(PoliceMan==4)
       findTrain40();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[4];
+      Message3 = "Passenger Weight : " + Weight[4] + "kg";
       PoliceMan++;
     }
   }
@@ -161,7 +161,7 @@ if(PoliceMan==4)
 const findId5 =  ()=>{
 if(PoliceMan==5)
   {
-    if(Thief==5)
+    if(Weight[Thief]==Weight[5])
     {
       findTrain41();
       Thief5();
@@ -174,7 +174,7 @@ if(PoliceMan==5)
       findTrain50();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[5];
+      Message3 = "Passenger Weight : " + Weight[5] + "kg";
       PoliceMan++;
     }
   }
@@ -188,7 +188,7 @@ if(PoliceMan==5)
 const findId6 =  ()=>{
 if(PoliceMan==6)
   {
-    if(Thief==6)
+    if(Weight[Thief]==Weight[6])
     {
       Thief6();
       findTrain51();
@@ -201,7 +201,7 @@ if(PoliceMan==6)
       findTrain60();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[6];
+      Message3 = "Passenger Weight : " + Weight[6] + "kg";
       PoliceMan++;
     }
   }
@@ -215,7 +215,7 @@ if(PoliceMan==6)
 const findId7 =  ()=>{
 if(PoliceMan==7)
   {
-    if(Thief==7)
+    if(Weight[Thief]==Weight[7])
     {
       Thief7();
       findTrain61();
@@ -228,7 +228,7 @@ if(PoliceMan==7)
       findTrain70();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[7];
+      Message3 = "Passenger Weight : " + Weight[7] + "kg";
       PoliceMan++;
     }
   }
@@ -241,7 +241,7 @@ if(PoliceMan==7)
 } 
 
 const findId8 =  ()=>{
-if(PoliceMan==8)
+if(Weight[Thief]==Weight[8])
   {
     if(Thief==8)
     {
@@ -256,7 +256,7 @@ if(PoliceMan==8)
       findTrain80();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[8];
+      Message3 = "Passenger Weight : " + Weight[8] + "kg";
       PoliceMan++;
     }
   }
@@ -270,7 +270,7 @@ if(PoliceMan==8)
 const findId9 =  ()=>{
   if(PoliceMan==9)
   {
-    if(Thief==9)
+    if(Weight[Thief]==Weight[9])
     {
       findTrain81();
       Thief9();
@@ -283,7 +283,7 @@ const findId9 =  ()=>{
       findTrain90();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Pasanger Weight : " + Weight[9];
+      Message3 = "Passenger Weight : " + Weight[9] + "kg";
       PoliceMan++;
     }
   }
@@ -297,13 +297,13 @@ const findId9 =  ()=>{
 const findId10 =  ()=>{
 if(PoliceMan==10)
   {
-    if(Thief==10)
+    if(Weight[Thief]==Weight[10])
     {
       findTrain91();
       Thief10();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
-      Message3 = "Pasanger Weight : " + Weight[10];
+      Message3 = "Passenger Weight : " + Weight[10] + "kg";
     }
     else
     {
@@ -331,7 +331,7 @@ const findTrain11 = ()=>
 }
 const findTrain20 = ()=>
 {
-  setPhoto2("https://lh3.googleusercontent.com/proxy/Q7_XNlNRpScSJUEFbf0LoXfStI7-6g2oE3ougL8owo3nfUhxxxx1bil3_LL3bo8ZxvBfuM9SxttRBlVuqUs9otcKttEf4BHElMTmCZbWC-JNesG_ehOkGQJwUTkfaA");
+  setPhoto2("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/2nd%20pasanger.png?raw=true");
 }
 const findTrain21 = ()=>
 {
@@ -347,7 +347,7 @@ const findTrain31 = ()=>
 }
 const findTrain40 = ()=>
 {
-  setPhoto4("https://lh3.googleusercontent.com/proxy/5QzDykO5tkNul2UMEJ-mfzo4M7fJoXzprIQWAaxaiC2SE7PdWf8nB6ryh41lEb_xUlA_sUJH5sX5yEaYH5IHwKhSD7vjA6w");
+  setPhoto4("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/4th%20pasanger.png?raw=true");
 }
 const findTrain41 = ()=>
 {
@@ -355,7 +355,7 @@ const findTrain41 = ()=>
 }
 const findTrain50 = ()=>
 {
-  setPhoto5("https://i.dlpng.com/static/png/6480241_preview.png");
+  setPhoto5("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/5th%20passenger.png?raw=true");
 }
 const findTrain51 = ()=>
 {
@@ -371,7 +371,7 @@ const findTrain61 = ()=>
 }
 const findTrain70 = ()=>
 {
-  setPhoto7("https://freepngimg.com/thumb/face/94497-brown-character-fictional-hair-royale-game-fortnite.png");
+  setPhoto7("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/7th%20passenger.png?raw=true");
 }
 const findTrain71 = ()=>
 {
@@ -379,7 +379,7 @@ const findTrain71 = ()=>
 }
 const findTrain80 = ()=>
 {
-  setPhoto8("https://i.graphicmama.com/uploads/2019/1/5c51a37fc9afe-female-hippo-cartoon-character.png");
+  setPhoto8("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/8th%20passenger.png?raw=true");
 }
 const findTrain81 = ()=>
 {
@@ -403,43 +403,43 @@ const findTrain101 = ()=>
 }
 const Thief1 = ()=>
 {
-  setPhoto1("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto1("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief2 = ()=>
 {
-  setPhoto2("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto2("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief3 = ()=>
 {
-  setPhoto3("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto3("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief4 = ()=>
 {
-  setPhoto4("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto4("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief5 = ()=>
 {
-  setPhoto5("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto5("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief6 = ()=>
 {
-  setPhoto6("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto6("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief7 = ()=>
 {
-  setPhoto7("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto7("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief8 = ()=>
 {
-  setPhoto8("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto8("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief9 = ()=>
 {
-  setPhoto9("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto9("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief10 = ()=>
 {
-  setPhoto10("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto10("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const imp = ()=>
 {
