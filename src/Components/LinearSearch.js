@@ -26,16 +26,16 @@ function trial(){
 function LinearSearch() {
 const [values,setValues] = useState(0);
 // console.log(values);
-const [photo1,setPhoto1] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139948230_102333728518866_1162617909568603775_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=EN1Fqn87f70AX8uk4AW&_nc_ht=scontent.fdel6-1.fna&oh=319bdaa08714cd996cafd7cc4727bb98&oe=602A7529");
-const [photo2,setPhoto2] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
-const [photo3,setPhoto3] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139449278_102333688518870_1404870796970672459_o.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=iRKG8z4zL6wAX8GB1II&_nc_ht=scontent.fdel6-1.fna&oh=4360ae608aaff4844df403c013ee461a&oe=6029FC67");
-const [photo4,setPhoto4] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139568214_102333681852204_7529496654824637647_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=H-WaPE9SiugAX9LCeuE&_nc_ht=scontent.fdel6-1.fna&oh=e1f8103863a1242f96cb4c5dc52f88c5&oe=60275A9D");
-const [photo5,setPhoto5] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139948230_102333728518866_1162617909568603775_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=EN1Fqn87f70AX8uk4AW&_nc_ht=scontent.fdel6-1.fna&oh=319bdaa08714cd996cafd7cc4727bb98&oe=602A7529");
-const [photo6,setPhoto6] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
-const [photo7,setPhoto7] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139449278_102333688518870_1404870796970672459_o.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=iRKG8z4zL6wAX8GB1II&_nc_ht=scontent.fdel6-1.fna&oh=4360ae608aaff4844df403c013ee461a&oe=6029FC67");
-const [photo8,setPhoto8] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139568214_102333681852204_7529496654824637647_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=H-WaPE9SiugAX9LCeuE&_nc_ht=scontent.fdel6-1.fna&oh=e1f8103863a1242f96cb4c5dc52f88c5&oe=60275A9D");
-const [photo9,setPhoto9] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139948230_102333728518866_1162617909568603775_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=EN1Fqn87f70AX8uk4AW&_nc_ht=scontent.fdel6-1.fna&oh=319bdaa08714cd996cafd7cc4727bb98&oe=602A7529");
-const [photo10,setPhoto10] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+const [photo1,setPhoto1] = useState("https://raw.githubusercontent.com/rohitsigar/ILLITRATE/Parul/src/Assets/1%20pasanger.png");
+const [photo2,setPhoto2] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+const [photo3,setPhoto3] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+const [photo4,setPhoto4] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+const [photo5,setPhoto5] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+const [photo6,setPhoto6] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+const [photo7,setPhoto7] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+const [photo8,setPhoto8] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+const [photo9,setPhoto9] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+const [photo10,setPhoto10] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
 
 if(b)
 {
@@ -287,7 +287,7 @@ const findTrain10 = ()=>
 }
 const findTrain11 = ()=>
 {
-  setPhoto1("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139948230_102333728518866_1162617909568603775_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=EN1Fqn87f70AX8uk4AW&_nc_ht=scontent.fdel6-1.fna&oh=319bdaa08714cd996cafd7cc4727bb98&oe=602A7529");
+  setPhoto1("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
 }
 const findTrain20 = ()=>
 {
@@ -295,7 +295,7 @@ const findTrain20 = ()=>
 }
 const findTrain21 = ()=>
 {
-  setPhoto2("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+  setPhoto2("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
 }
 const findTrain30 = ()=>
 {
@@ -303,7 +303,7 @@ const findTrain30 = ()=>
 }
 const findTrain31 = ()=>
 {
-  setPhoto3("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139449278_102333688518870_1404870796970672459_o.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=iRKG8z4zL6wAX8GB1II&_nc_ht=scontent.fdel6-1.fna&oh=4360ae608aaff4844df403c013ee461a&oe=6029FC67");
+  setPhoto3("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
 }
 const findTrain40 = ()=>
 {
@@ -311,7 +311,7 @@ const findTrain40 = ()=>
 }
 const findTrain41 = ()=>
 {
-  setPhoto4("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139568214_102333681852204_7529496654824637647_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=H-WaPE9SiugAX9LCeuE&_nc_ht=scontent.fdel6-1.fna&oh=e1f8103863a1242f96cb4c5dc52f88c5&oe=60275A9D");
+  setPhoto4("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
 }
 const findTrain50 = ()=>
 {
@@ -319,7 +319,7 @@ const findTrain50 = ()=>
 }
 const findTrain51 = ()=>
 {
-  setPhoto5("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139948230_102333728518866_1162617909568603775_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=EN1Fqn87f70AX8uk4AW&_nc_ht=scontent.fdel6-1.fna&oh=319bdaa08714cd996cafd7cc4727bb98&oe=602A7529");
+  setPhoto5("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
 }
 const findTrain60 = ()=>
 {
@@ -327,7 +327,7 @@ const findTrain60 = ()=>
 }
 const findTrain61 = ()=>
 {
-  setPhoto6("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+  setPhoto6("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
 }
 const findTrain70 = ()=>
 {
@@ -335,7 +335,7 @@ const findTrain70 = ()=>
 }
 const findTrain71 = ()=>
 {
-  setPhoto7("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+  setPhoto7("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
 }
 const findTrain80 = ()=>
 {
@@ -343,7 +343,7 @@ const findTrain80 = ()=>
 }
 const findTrain81 = ()=>
 {
-  setPhoto8("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+  setPhoto8("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
 }
 const findTrain90 = ()=>
 {
@@ -351,7 +351,7 @@ const findTrain90 = ()=>
 }
 const findTrain91 = ()=>
 {
-  setPhoto9("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+  setPhoto9("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
 }
 const findTrain100 = ()=>
 {
@@ -359,7 +359,7 @@ const findTrain100 = ()=>
 }
 const findTrain101 = ()=>
 {
-  setPhoto10("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+  setPhoto10("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
 }
 const Thief1 = ()=>
 {
@@ -402,20 +402,20 @@ const Thief10 = ()=>
   setPhoto10("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
 }
   return <div className="linearSearch">
+  <div className="CardCSS">
   <Card 
     message={Message1}
-    weight="40"
   />
   <Card 
     message={Message2}
-    weight="40"
   />
- 
+  </div>
+    
     <button id="1" onClick ={findId1} className=" drum" >
     <img id="img"  src = {photo1}  className="image"  alt="/">
-
     </img>
     </button>
+   
     <button  id="2"  onClick ={findId2}  className=" drum"> <img  src={photo2}  className="image" alt="/"></img></button>
     <button id="3" onClick ={findId3}  className=" drum"> <img src={photo3} className="image" alt="/"></img></button>
     <button id="4" onClick ={findId4}  className=" drum"> <img src={photo4} className="image" alt="/"></img></button>
