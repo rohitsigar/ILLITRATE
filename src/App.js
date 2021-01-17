@@ -11,35 +11,28 @@ import Algo from "./Components/Algo";
 import LinearSearch from "./Components/LinearSearch";
 import BinarySearch from "./Components/BinarySearch";
 
-
 import About from "./Components/About";
 import puzzle from "./Assets/Puzzle.png";
 import cube from "./Assets/cube.png";
 import BeadStory from "./Components/BeadStory";
-
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/train">
-
-            <LinearSearch />
-          </Route>
           <Route path="/building">
-
-<BinarySearch/>
-</Route>
-          <Route path="/algo">
+            <BinarySearch />
+          </Route>
+          <Route path="/LinearSearch">
             <Header />
             <CompleStory />
           </Route>
-          <Route path="/binary">
-          <Header/>
-            <BeadStory/>
+          <Route path="/BinarySearch">
+            <Header />
+            <BeadStory />
           </Route>
-          <Route path="/a">
+          <Route path="/Algorithm">
             <Header />
             <Algo />
             <Footer />
@@ -49,20 +42,20 @@ function App() {
             <Home />
             <ComponentCard
               headline="Algorithm"
-              para="You got to learn about algo"
-              buttonContent="lets get started »"
+              para="Aspiring to excel in Competitive Coding? Then You should be aware what all STL offers...
+              STL has oceans of algorithms, here is your opportunity.... "
+              buttonContent="Learn from Here »"
               sideimage={puzzle}
             />
             <ComponentCard
               headline="Puzzle"
-              para="Lets practice"
-              buttonContent="do practice »"
+              para="Practice makes a man perfect! what if add with practice..."
+              buttonContent="Go Here »"
               sideimage={cube}
             />
             <About />
             <Footer />
           </Route>
-
         </Switch>
       </div>
     </Router>
