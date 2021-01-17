@@ -60,10 +60,12 @@
 }
 
 .hackathon__duration {
-  font-family: "Blockletter";
-  font-size: 2rem;
+  /* font-family: "Blockletter"; */
+  font-family:cursive;
+  font-size: 1.5rem;
   /* padding-bottom: 10px; */
   padding-left: 50px;
+  max-width: 800px;
 }
 
 .buttonfx {
