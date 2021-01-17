@@ -4,7 +4,6 @@ import Card from "./Card";
 
 var Message1 = "Ready to Scratch a Lie! 😜";
 var Message2 = "Traverse the array";
-var Weight = "";
 var PoliceMan = 1;
 var Thief ; 
 var b = true;
@@ -26,7 +25,7 @@ function trial(){
 function LinearSearch() {
 const [values,setValues] = useState(0);
 // console.log(values);
-const [photo1,setPhoto1] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139948230_102333728518866_1162617909568603775_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=EN1Fqn87f70AX8uk4AW&_nc_ht=scontent.fdel6-1.fna&oh=319bdaa08714cd996cafd7cc4727bb98&oe=602A7529");
+const [photo1,setPhoto1] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
 const [photo2,setPhoto2] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
 const [photo3,setPhoto3] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139449278_102333688518870_1404870796970672459_o.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=iRKG8z4zL6wAX8GB1II&_nc_ht=scontent.fdel6-1.fna&oh=4360ae608aaff4844df403c013ee461a&oe=6029FC67");
 const [photo4,setPhoto4] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139568214_102333681852204_7529496654824637647_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=H-WaPE9SiugAX9LCeuE&_nc_ht=scontent.fdel6-1.fna&oh=e1f8103863a1242f96cb4c5dc52f88c5&oe=60275A9D");
@@ -36,6 +35,7 @@ const [photo7,setPhoto7] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1
 const [photo8,setPhoto8] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139568214_102333681852204_7529496654824637647_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=H-WaPE9SiugAX9LCeuE&_nc_ht=scontent.fdel6-1.fna&oh=e1f8103863a1242f96cb4c5dc52f88c5&oe=60275A9D");
 const [photo9,setPhoto9] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139948230_102333728518866_1162617909568603775_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=EN1Fqn87f70AX8uk4AW&_nc_ht=scontent.fdel6-1.fna&oh=319bdaa08714cd996cafd7cc4727bb98&oe=602A7529");
 const [photo10,setPhoto10] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+const [photo11,setPhoto11] = useState("https://www.emoji.com/wp-content/uploads/filebase/icons/emoji-icon-glossy-05-05-travel-places-transport-ground-locomotive-variant-cartoon-72dpi-forPersonalUseOnly.png");
 
 if(b)
 {
@@ -82,8 +82,10 @@ const findId2 =  ()=>{
     }
   }
   else{
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
-    Message2 = "In Linear Search : Traversing is done Sequentially";
+    console.log("2 box");
+    imp();
+    Message1 = "Congratulations! You caught the thief 🤩!";
+    Message2 = "You found the required number on " + PoliceMan + "rd index of the Compartment";
   }
 } 
 const findId3 =  ()=>{
@@ -106,8 +108,10 @@ if(PoliceMan==3)
     }
   }
   else{
+    imp();
     Message1 = "PoliceMan is not reached to this Compartment Yet!";
     Message2 = "In Linear Search : Traversing is done Sequentially";
+    console.log("3 box");
   }
 } 
 const findId4 =  ()=>{
@@ -130,8 +134,10 @@ if(PoliceMan==4)
     }
   }
   else{
+    imp();
     Message1 = "PoliceMan is not reached to this Compartment Yet!";
     Message2 = "In Linear Search : Traversing is done Sequentially";
+    console.log("4 box");
   }
 } 
 const findId5 =  ()=>{
@@ -154,8 +160,10 @@ if(PoliceMan==5)
     }
   }
   else{
+    imp();
     Message1 = "PoliceMan is not reached to this Compartment Yet!";
     Message2 = "In Linear Search : Traversing is done Sequentially";
+    console.log("5 box");
   }
 } 
 const findId6 =  ()=>{
@@ -178,8 +186,10 @@ if(PoliceMan==6)
     }
   }
   else{
+    imp();
     Message1 = "PoliceMan is not reached to this Compartment Yet!";
     Message2 = "In Linear Search : Traversing is done Sequentially";
+    console.log("6 box");
   }
 } 
 const findId7 =  ()=>{
@@ -202,8 +212,10 @@ if(PoliceMan==7)
     }
   }
   else{
+    imp();
     Message1 = "PoliceMan is not reached to this Compartment Yet!";
     Message2 = "In Linear Search : Traversing is done Sequentially";
+    console.log("7 box");
   }
 } 
 
@@ -227,8 +239,10 @@ if(PoliceMan==8)
     }
   }
   else{
+    imp();
     Message1 = "PoliceMan is not reached to this Compartment Yet!";
     Message2 = "In Linear Search : Traversing is done Sequentially";
+    console.log("8 box");
   }
 }
 const findId9 =  ()=>{
@@ -251,10 +265,10 @@ const findId9 =  ()=>{
     }
   }
   else{
-    
+    imp();
     Message1 = "PoliceMan is not reached to this Compartment Yet!";
     Message2 = "In Linear Search : Traversing is done Sequentially";
-    console.log("gfadjhfjadhfiadfjai");
+    console.log("9 box");
   }
 } 
 const findId10 =  ()=>{
@@ -277,13 +291,15 @@ if(PoliceMan==10)
     }
   }
   else{
+    imp();
     Message1 = "PoliceMan is not reached to this Compartment Yet!";
     Message2 = "In Linear Search : Traversing is done Sequentially";
+    console.log("10 box");
   }
 } 
 const findTrain10 = ()=>
 {
-  setPhoto1("https://lh3.googleusercontent.com/proxy/5QzDykO5tkNul2UMEJ-mfzo4M7fJoXzprIQWAaxaiC2SE7PdWf8nB6ryh41lEb_xUlA_sUJH5sX5yEaYH5IHwKhSD7vjA6w");
+  setPhoto1("https://www.pinclipart.com/picdir/big/408-4085765_bald-head-old-man-cartoon-transparent-clipart.png");
 }
 const findTrain11 = ()=>
 {
@@ -401,15 +417,25 @@ const Thief10 = ()=>
 {
   setPhoto10("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
 }
+const imp = ()=>
+{
+  if(photo11=="https://www.emoji.com/wp-content/uploads/filebase/icons/emoji-icon-glossy-05-05-travel-places-transport-ground-locomotive-variant-cartoon-72dpi-forPersonalUseOnly.png")
+  {
+    setPhoto11("https://bit.ly/3ijfzR8")
+  }
+  else
+  {
+    setPhoto11("https://www.emoji.com/wp-content/uploads/filebase/icons/emoji-icon-glossy-05-05-travel-places-transport-ground-locomotive-variant-cartoon-72dpi-forPersonalUseOnly.png")
+  }
+}
   return <div className="linearSearch">
   <Card 
     message={Message1}
-    weight="40"
   />
   <Card 
     message={Message2}
-    weight="40"
   />
+  <img src = {photo11} alt = "/"></img>
  
     <button id="1" onClick ={findId1} className=" drum" >
     <img id="img"  src = {photo1}  className="image"  alt="/">
@@ -433,6 +459,5 @@ const Thief10 = ()=>
   </div>;
 
 }
-
 
 export default LinearSearch;
