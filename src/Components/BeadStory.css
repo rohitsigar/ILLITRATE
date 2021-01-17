@@ -48,11 +48,10 @@
 
 .binary__blog {
   background-color: #fff;
-  padding: 50px;
   border-radius: 5px;
   animation: ease-in;
   transition: 0.5s;
-  margin: 150px;
+  margin: 50px;
   padding: 70px;
 }
 
@@ -121,10 +120,7 @@
   font-family: "Ubuntu", sans-serif;
   text-align: start;
   margin-bottom: 20px;
-  text-align: center;
   margin-top: 20px;
-  font-family: "Ubuntu", sans-serif;
-  color: #eff7e1;
 }
 .mystery {
   display: block;
@@ -250,4 +246,55 @@
 
 .diamond_game {
   flex: 0.7;
+}
+
+.beads__beads {
+  margin-bottom: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.bead__tsk {
+  font-weight: 600;
+  font-size: 60px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #f0ac45;
+}
+
+.problemStatement {
+  height: auto;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  border: 5px solid rgb(243, 212, 108);
+  border-radius: 3px;
+}
+.problemStatement > h1 {
+  font-weight: 600;
+  font-size: 50px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #f2e375;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.problemStatement > p {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  text-align: start;
+}
+.beads__click {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  margin-bottom: 200px;
 }

@@ -30,7 +30,7 @@ function trial(){
   }
   var ThiefWeight = Weight[Thief];
 }
-function LinearSearch() {
+function BinarySearch() {
 const [values,setValues] = useState(0);
 
 const [photo1,setPhoto1] = useState("https://github.com/rohitsigar/ILLITRATE/blob/master/src/Assets/BoxDark1.png?raw=true");
@@ -562,7 +562,6 @@ const imp = ()=>
     message={Message4}
   />
 
-<img className ="Engine" src = {photo11} alt = "/"></img>
   </div>
     <button id="1" onClick ={findId1}  className=" drum" >
     <img id="img"  src = {photo1}  className="image"  alt="/">
@@ -586,4 +585,4 @@ const imp = ()=>
 
 }
 
-export default LinearSearch;
+export default BinarySearch;

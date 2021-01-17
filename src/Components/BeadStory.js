@@ -5,6 +5,8 @@ import diamond from "../Lottie/diamond.json";
 import pearl from "../Lottie/pearl.json";
 import fast from "../Lottie/fastcar.json";
 
+import BinarySearch from "./BinarySearch";
+
 export default function BeadStory() {
   return (
 
@@ -75,6 +77,44 @@ export default function BeadStory() {
             </div>
             </div>
             </div>
+
+            <div className="bead__tsk">
+              Your Task Begins
+            </div>
+            <div className="problemStatement">
+        <h1>Problem:</h1>
+        <p>the train has 10 compartments, and there is a condition that in each compartment, there is only one passenger. The thief hid in Tran's compartment. You i.e. chief knew the weight of every passenger and thief. 
+Find out the compartment’s number in which the thief is found.</p>
+      </div>
+
+
+
+
+
+
+
+
+            <div className="beads__beads">
+              <BinarySearch />
+            </div>
+
+
+
+            <div className="beads__click">
+              Click on the Box To Check For Beads
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
          <div className="binary__blog">
         <h2>Binary Search</h2>
         <p>
