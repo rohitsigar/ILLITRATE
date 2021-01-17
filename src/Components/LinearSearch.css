@@ -1,9 +1,10 @@
+
 .linearSearch {
   text-align: center;
 }
 
 .drum {
-  /* outline: none;
+
     font-size: 5rem;
     font-family: 'Arvo', cursive;
     line-height: 2;
@@ -16,6 +17,7 @@
     height: 130px;
     text-align: center;
     margin: 10px; */
+
   background-color: transparent;
   outline: none;
   border: none;
@@ -40,3 +42,4 @@
 .scrollDown {
   margin-top: 40%;
 }
+
