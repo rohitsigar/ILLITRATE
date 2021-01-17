@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Molle:ital@1&family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Yusei+Magic&display=swap");
+
+.binary_search {
+  /* background-color: #f0c38e; */
+  height: auto;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.binary_story {
+  margin: 100px;
+  display: flex;
+}
+.binary_start {
+  text-align: start;
+  flex: 1;
+  margin-top: 50px;
+}
+.binary_start > p {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 100%;
+  margin-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+}
+.mystery {
+  display: block;
+  color: #07689f;
+  font-size: 95px;
+  font-family: "Yusei Magic", sans-serif;
+  margin-top: 50px;
+}
+.beady {
+  color: #fdfdfd;
+  display: inline-block;
+  font-size: 95px;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.diamond {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.diamond_area {
+  flex: 0.5;
+}
+/* top part */
+
+.hello {
+  color: #ffc93c;
+  font-weight: 800;
+  font-size: 60px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.beautiful {
+  color: #54e346;
+}
+
+.gem {
+  color: #9ddfd3;
+}
+
+.string {
+  color: #ee6f57;
+}
+
+/* mid part1 */
+
+.binary_midway {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+}
+
+.detective {
+  color: #e79cc2;
+}
+
+.robber {
+  color: #c70039;
+}
+
+.x {
+  color: #50d890;
+}
+
+.escape {
+  color: #000;
+}
+
+/* midpart2 */
+.meeting {
+  color: #fa9579;
+}
+.fair {
+  color: #d6b0b1;
+}
+.good {
+  color: #d89216;
+}
+.bad {
+  color: #433d3c;
+}
+
+/* //last part */
+
+.binary_last {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+}
+
+.role {
+  color: #c56183;
+}
+
+.reach {
+  color: #d08752;
+}
+
+.hint_statement {
+  color: #799351;
+}
+
+.hint {
+  color: #ea5455;
+}
+
+.diamond_game {
+}
