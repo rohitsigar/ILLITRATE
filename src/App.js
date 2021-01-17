@@ -8,7 +8,7 @@ import Home from "./Components/Home";
 import "./App.css";
 import Footer from "./Components/Footer";
 import Algo from "./Components/Algo";
-
+import LinearSearch from "./Components/LinearSearch";
 import About from "./Components/About";
 import puzzle from "./Assets/Puzzle.png";
 import cube from "./Assets/cube.png";
@@ -19,6 +19,9 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
+           <Route path="/train">
+            <LinearSearch />
+          </Route>
           <Route path="/algo">
             <Header />
             <CompleStory />
