@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Yusei+Magic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Molle:ital@1&family=Yusei+Magic&display=swap");
 .linear__Search {
-  /* background-color: #ffb26b; */
+  /* background-color: gray; */
   height: auto;
   margin: auto;
   text-align: center;
@@ -223,14 +223,27 @@
   font-family: "Chicle";
 }
 
-.linear__blog {
-  margin: 100px;
+.linear__blog{
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  animation: ease-in;
+  transition: 0.5s;
+  margin: 150px;
+  padding: 70px;
+
+}
+
+.linear__blog:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+  
 }
 
 .linear__blog > h2 {
   font-size: 110px;
   font-weight: bolder;
-  color: #f8dc81;
+  color: #5c8d89;
   font-family: "Chicle", cursive;
   text-align: start;
   margin-bottom: 20px;
@@ -238,10 +251,60 @@
 
 .linear__blog > p {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 30px;
   max-width: 100%;
   font-family: "Ubuntu", sans-serif;
-  color: #eff7e1;
+  color: #929aab;
+  text-align: start;
+}
+
+.linear__blog > h4{
+  font-size: 80px;
+  font-weight: bolder;
+  color: #74b49b;
+  font-family: "Chicle", cursive;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.linear__blog ul{
+   padding: 10px;
+   padding-left: 50px;
+   font-size: 40px;
+   color: gray ;
+}
+
+.linear_step{
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+.linear__code{
+  width: 50%;
+  margin: 30px;
+}
+
+.linear_ques{
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.linear_think{
+   color: #74b49b;
+}
+
+.linear_timeCom{
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
   text-align: start;
 }
 
@@ -272,3 +335,4 @@
   color: #eff7e1;
   text-align: start;
 }
+
