@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./Components/Header";
-import LinearSearch from "./Components/LinearSearch";
+import CompleStory from "./Components/CompleStory";
 import "./App.css";
 import ComponentCard from "./ComponentCard";
 import Home from "./Components/Home";
@@ -21,7 +21,7 @@ function App() {
         <Switch>
           <Route path="/algo">
             <Header />
-            <LinearSearch />
+            <CompleStory />
           </Route>
           <Route path="/a">
             <Header />
