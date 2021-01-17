@@ -18,14 +18,110 @@
   margin: 50px;
 }
 .binary_start {
-  text-align: start;
-  flex: 1;
-  margin-top: 50px;
-}
-.binary_start > p {
   font-weight: 600;
   font-size: 40px;
   max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  text-align: start;
+  margin-top: 10%;
+  flex: 1;
+}
+
+.binary_story {
+  margin-top: 60px;
+}
+
+.binary__code {
+  width: 50%;
+  margin: 30px;
+}
+
+.binary_timeCom {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+}
+
+.binary__blog {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  animation: ease-in;
+  transition: 0.5s;
+  margin: 150px;
+  padding: 70px;
+}
+
+.binary__blog:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.binary__blog > h2 {
+  font-size: 110px;
+  font-weight: bolder;
+  color: #83a95c;
+  font-family: "Chicle", cursive;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.binary__blog > p {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+}
+
+.binary__blog > h4 {
+  font-size: 80px;
+  font-weight: bolder;
+  color: #83a95c;
+  font-family: "Chicle", cursive;
+  text-align: start;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.binary__blog ul {
+  padding: 10px;
+  padding-left: 50px;
+  font-size: 40px;
+  color: gray;
+}
+
+.binary_step {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+.binary_diff {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+}
+
+.binary__con {
+  font-size: 30px;
+  color: #83a95c;
+  font-family: "Ubuntu", sans-serif;
+  text-align: start;
+  margin-bottom: 20px;
+  text-align: center;
   margin-top: 20px;
   font-family: "Ubuntu", sans-serif;
   color: #eff7e1;
