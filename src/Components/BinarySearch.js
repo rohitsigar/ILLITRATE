@@ -46,15 +46,6 @@ const [photo10,setPhoto10] = useState("https://github.com/rohitsigar/ILLITRATE/b
 const [photo11,setPhoto11] = useState("https://github.com/rohitsigar/ILLITRATE/blob/master/src/Assets/BoxDark1.png?raw=true");
 
 PoliceMan = Math.floor(left + (right - left)/2);
-//1-l or r- 10
-for(var i=0;i<left;i++)
-{
-   //i
-}
-for(var i=10;i>right;i--)
-{
-  //i
-}
 
 if(b)
 {
