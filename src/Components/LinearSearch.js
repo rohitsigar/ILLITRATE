@@ -227,7 +227,7 @@ if(PoliceMan==10)
 } 
 const findTrain10 = ()=>
 {
-  setPhoto1("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139500289_102333381852234_7778256678316964154_n.jpg?_nc_cat=107&ccb=2&_nc_sid=730e14&_nc_ohc=s1qp3BwUmJoAX-R3c3C&_nc_ht=scontent.fdel6-1.fna&oh=19daf6e978e5dd053c128ffeebe31fee&oe=6027C0A5");
+  setPhoto1("https://lh3.googleusercontent.com/proxy/5QzDykO5tkNul2UMEJ-mfzo4M7fJoXzprIQWAaxaiC2SE7PdWf8nB6ryh41lEb_xUlA_sUJH5sX5yEaYH5IHwKhSD7vjA6w");
 }
 const findTrain11 = ()=>
 {
@@ -235,7 +235,7 @@ const findTrain11 = ()=>
 }
 const findTrain20 = ()=>
 {
-  setPhoto2("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139416038_102333371852235_1049146519941750148_n.jpg?_nc_cat=101&ccb=2&_nc_sid=730e14&_nc_ohc=2oBcBCGbhGYAX-N-jgg&_nc_ht=scontent.fdel6-1.fna&oh=3a3213d51a6b114be7f60f1c477e3160&oe=60297490");
+  setPhoto2("https://www.clipartmax.com/png/middle/11-113388_angry-woman-cartoon-angry-cartoon-woman.png");
 }
 const findTrain21 = ()=>
 {
