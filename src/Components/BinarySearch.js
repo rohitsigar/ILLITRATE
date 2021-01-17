@@ -63,6 +63,7 @@ if(b)
   Message4 = "No. of beads in Precious jwellery: " + Weight[Thief]; 
 }
 console.log(Thief);
+Thief = 7;
 console.log(PoliceMan);
 const findId1 =  ()=>{
   if(PoliceMan==1)
