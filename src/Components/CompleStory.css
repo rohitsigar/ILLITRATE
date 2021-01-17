@@ -243,7 +243,7 @@
 .linear__blog > h2 {
   font-size: 110px;
   font-weight: bolder;
-  color: #5c8d89;
+  color: #184d47;
   font-family: "Chicle", cursive;
   text-align: start;
   margin-bottom: 20px;
@@ -261,7 +261,7 @@
 .linear__blog > h4{
   font-size: 80px;
   font-weight: bolder;
-  color: #74b49b;
+  color: #184d47;
   font-family: "Chicle", cursive;
   text-align: start;
   margin-bottom: 20px;
@@ -296,7 +296,7 @@
 }
 
 .linear_think{
-   color: #74b49b;
+   color: #184d47;
 }
 
 .linear_timeCom{
@@ -306,6 +306,18 @@
   font-family: "Ubuntu", sans-serif;
   color: #929aab;
   text-align: start;
+}
+
+.linear__con{
+  font-size: 40px;
+  color: #184d47;
+  font-family: "Ubuntu", sans-serif;
+  text-align: start;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+
 }
 
 .problemStatement {
