@@ -92,16 +92,16 @@ Find out the compartment’s number in which the thief is found.</p>
        <h4> Approach </h4>
        <ul>
          <li>
-           <p className="linear_stepone">Sequentially move through the array from the leftmost side and start comparing the value
+           <p className="linear_step">Sequentially move through the array from the leftmost side and start comparing the value
             you want to search (let x) with each element of array.</p>
          </li>
          <li>
-           <p className="linear_steptwo">
+           <p className="linear_step">
            If x matches with an element then return the index.
            </p>
          </li>
          <li>
-           <p className="linear_stepthree">
+           <p className="linear_step">
            If x does not match with any of the elements then return -1.
            </p>
          </li>
@@ -115,8 +115,10 @@ Find out the compartment’s number in which the thief is found.</p>
        <h4> Time Complexity </h4>
        <p classname="linear_timeCom">
        The time required to search an element using a linear search algorithm depends on the size of the list. Within the best-case situation, the component is present at the starting of
-        the list and within the worst-case, it is display at the end.
+        the list and within the worst-case, it is display at the end. <br></br><br></br>We can conclude that "Time Complexity" for linear Search is
+        <br></br><h3>Best: O(1) </h3><h3> Average: O(n) </h3><h3> Worst: O(n)</h3>
        </p>
+       <h6 className="linear__con">Overall Linear Search is an important concept to understand when it comes to algorithms.</h6>
     </div>
     </div>
   )
