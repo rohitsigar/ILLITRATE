@@ -22,6 +22,7 @@
     "react-scripts": "4.0.1",
     "react-slick": "^0.27.14",
     "react-tilt": "^0.1.4",
+    "react-video-looper": "^1.0.16",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.2.1",
     "swiper": "^6.4.5",

@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import "./BinarySearch.css";
 import Card from "./Card";
 var Weight = new Array(1,2,3,4,5,6,7,8,9,10,11);
-var Message3 = "Weight";
+var Message3 = "No. of Beads";
 var Message1 = "Ready to Scratch a Lie! 😜";
 var Message2 = "Traverse the array";
 var Message4 = "";
@@ -46,21 +46,12 @@ const [photo10,setPhoto10] = useState("https://github.com/rohitsigar/ILLITRATE/b
 const [photo11,setPhoto11] = useState("https://github.com/rohitsigar/ILLITRATE/blob/master/src/Assets/BoxDark1.png?raw=true");
 
 PoliceMan = Math.floor(left + (right - left)/2);
-//1-l or r- 10
-for(var i=0;i<left;i++)
-{
-   //i
-}
-for(var i=10;i>right;i--)
-{
-  //i
-}
 
 if(b)
 {
   trial();
   b = false;
-  Message4 = "No. of beads in Precious jwel: " + Weight[Thief]; 
+  Message4 = "No. of beads in Precious jwellery: " + Weight[Thief]; 
 }
 console.log(Thief);
 console.log(PoliceMan);
@@ -72,7 +63,7 @@ const findId1 =  ()=>{
       Thief1();
       findTrain21();
       Message1 = "Congratulations! You save the robary 🤩!";
-      Message2 = "You found the required number on " + PoliceMan + "st index of the Compartment";
+      Message2 = "You found the precious jwellery on " + PoliceMan + "st index of the Box";
       Message3 = "Thief arrested!!"
 
      }
@@ -80,9 +71,9 @@ const findId1 =  ()=>{
     {
       findTrain10();
       findTrain21();
-       Message1 = "Oops!!🙊 try another compartment";
-      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[1] + "kg";
+       Message1 = "Oops!!🙊 this is not the box you are lookin' for.";
+      Message2 = "Box[" + PoliceMan + "] != Box of precious beads";
+      Message3 = "No. of Beads in currentBox: " + Weight[1] ;
       if(Weight[Thief]>Weight[1])
       {
         left = PoliceMan+1;
@@ -96,8 +87,8 @@ const findId1 =  ()=>{
   else
   {
     imp();
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
-    Message2 = "In Linear Search : Traversing is done Sequentially";
+    Message1 = "This is not the optimal way to reach the Target";
+    Message2 = " Binary Search : Works on Sorted Array : Works on Principle of Divide and Conquer";
     console.log("3 box");
   }
 } 
@@ -108,17 +99,17 @@ const findId2 =  ()=>{
     {
       Thief2();
       findTrain51();
-      Message1 = "Congratulations! You caught the thief 🤩!";
-      Message2 = "You found the required number on " + PoliceMan + "nd index of the Compartment";
+      Message1 = "Congratulations! You save the robary 🤩!";
+      Message2 = "You found the precious jwellery on " + PoliceMan + "nd index of the Box";
       Message3 = "Thief arrested!!"
     }
     else
     {
       findTrain51();
       findTrain20();
-       Message1 = "Oops!!🙊 try another compartment";
-      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[2] + "kg";
+       Message1 = "Oops!!🙊 this is not the box you are lookin' for.";
+      Message2 = "Box[" + PoliceMan + "] != Box of precious beads";
+      Message3 = "No. of Beads in currentBox: " + Weight[2] ;
       if(Weight[Thief]>Weight[2])
       {
         left = PoliceMan+1;
@@ -131,8 +122,8 @@ const findId2 =  ()=>{
   }
   else{
         imp();
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
-    Message2 = "In Linear Search : Traversing is done Sequentially";
+    Message1 ="This is not the optimal way to reach the Target";
+    Message2 = " Binary Search : Works on Sorted Array : Works on Principle of Divide and Conquer";
     console.log("3 box");
   }
 } 
@@ -143,17 +134,17 @@ if(PoliceMan==3)
     {
       Thief3();
       findTrain21();
-      Message1 = "Congratulations! You caught the thief 🤩!";
-      Message2 = "You found the required number on " + PoliceMan + "rd index of the Compartment";
+      Message1 = "Congratulations! You save the robary 🤩!";
+      Message2 = "You found the precious jwellery on " + PoliceMan + "rd index of the Box";
       Message3 = "Thief arrested!!"
     }
     else
     {
       findTrain21();
       findTrain30();
-       Message1 = "Oops!!🙊 try another compartment";
-      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[3] + "kg";
+       Message1 = "Oops!!🙊 this is not the box you are lookin' for.";
+      Message2 = "Box[" + PoliceMan + "] != Box of precious beads";
+      Message3 =  "No. of Beads in currentBox: " + Weight[3] ;
       if(Weight[Thief]>Weight[3])
       {
         left = PoliceMan+1;
@@ -166,8 +157,8 @@ if(PoliceMan==3)
   }
   else{
     imp();
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
-    Message2 = "In Linear Search : Traversing is done Sequentially";
+    Message1 ="This is not the optimal way to reach the Target";
+    Message2 = " Binary Search : Works on Sorted Array : Works on Principle of Divide and Conquer";
     console.log("3 box");
   }
 } 
@@ -178,17 +169,17 @@ if(PoliceMan==4)
     {
       Thief4();
       findTrain31();
-      Message1 = "Congratulations! You caught the thief 🤩!";
-      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message1 = "Congratulations! You save the robary 🤩!";
+      Message2 = "You found the precious jwellery on " + PoliceMan + "th index of the Box";
       Message3 = "Thief arrested!!"
     }
     else
     {
       findTrain31();
       findTrain40();
-       Message1 = "Oops!!🙊 try another compartment";
-      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[4] + "kg";
+       Message1 = "Oops!!🙊 this is not the box you are lookin' for.";
+      Message2 = "Box[" + PoliceMan + "] != Box of precious beads";
+      Message3 =  "No. of Beads in currentBox: " + Weight[4] ;
       if(Weight[Thief]>Weight[4])
       {
         left = PoliceMan+1;
@@ -201,8 +192,8 @@ if(PoliceMan==4)
   }
   else{
     imp();
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
-    Message2 = "In Linear Search : Traversing is done Sequentially";
+    Message1 ="This is not the optimal way to reach the Target";
+    Message2 = " Binary Search : Works on Sorted Array : Works on Principle of Divide and Conquer";
     console.log("4 box");
   }
 } 
@@ -212,16 +203,16 @@ if(PoliceMan==5)
     if(Weight[Thief]==Weight[5])
     {
       Thief5();
-      Message1 = "Congratulations! You caught the thief 🤩!";
-      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message1 = "Congratulations! You save the robary 🤩!";
+      Message2 = "You found the precious jwellery on " + PoliceMan + "th index of the Box";
       Message3 = "Thief arrested!!"
     }
     else
     {
       findTrain50();
-       Message1 = "Oops!!🙊 try another compartment";
-      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[5] + "kg";
+       Message1 = "Oops!!🙊 this is not the box you are lookin' for.";
+      Message2 = "Box[" + PoliceMan + "] != Box of precious beads";
+      Message3 =  "No. of Beads in currentBox: " + Weight[5] ;
       if(Weight[Thief]>Weight[5])
       {
         left = PoliceMan+1;
@@ -235,8 +226,8 @@ if(PoliceMan==5)
   }
   else{
     imp();
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
-    Message2 = "In Linear Search : Traversing is done Sequentially";
+    Message1 ="This is not the optimal way to reach the Target";
+    Message2 = " Binary Search : Works on Sorted Array : Works on Principle of Divide and Conquer";
     console.log("5 box");
   }
 } 
@@ -247,17 +238,17 @@ if(PoliceMan==6)
     {
       Thief6();
       findTrain81();
-      Message1 = "Congratulations! You caught the thief 🤩!";
-      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message1 = "Congratulations! You save the robary 🤩!";
+      Message2 = "You found the precious jwellery on " + PoliceMan + "th index of the Box";
       Message3 = "Thief arrested!!"
     }
     else
     {
       findTrain81();
       findTrain60();
-       Message1 = "Oops!!🙊 try another compartment";
-      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[6] + "kg";
+       Message1 = "Oops!!🙊 this is not the box you are lookin' for.";
+      Message2 = "Box[" + PoliceMan + "] != Box of precious beads";
+      Message3 =  "No. of Beads in currentBox: " + Weight[6] ;
       if(Weight[Thief]>Weight[6])
       {
         left = PoliceMan+1;
@@ -270,8 +261,8 @@ if(PoliceMan==6)
   }
   else{
     imp();
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
-    Message2 = "In Linear Search : Traversing is done Sequentially";
+    Message1 ="This is not the optimal way to reach the Target";
+    Message2 = " Binary Search : Works on Sorted Array : Works on Principle of Divide and Conquer";
     console.log("6 box");
   }
 } 
@@ -282,17 +273,17 @@ if(PoliceMan==7)
     {
       Thief7();
       findTrain61();
-      Message1 = "Congratulations! You caught the thief 🤩!";
-      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message1 = "Congratulations! You save the robary 🤩!";
+      Message2 = "You found the precious jwellery on " + PoliceMan + "th index of the Box";
       Message3 = "Thief arrested!!"
     }
     else
     {
       findTrain61();
       findTrain70();
-       Message1 = "Oops!!🙊 try another compartment";
-      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[7] + "kg";
+       Message1 = "Oops!!🙊 this is not the box you are lookin' for.";
+      Message2 = "Box[" + PoliceMan + "] != Box of precious beads";
+      Message3 =  "No. of Beads in currentBox: " + Weight[7] ;
       if(Weight[Thief]>Weight[7])
       {
         left = PoliceMan+1;
@@ -305,8 +296,8 @@ if(PoliceMan==7)
   }
   else{
     imp();
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
-    Message2 = "In Linear Search : Traversing is done Sequentially";
+    Message1 ="This is not the optimal way to reach the Target";
+    Message2 = " Binary Search : Works on Sorted Array : Works on Principle of Divide and Conquer";
     console.log("7 box");
   }
 } 
@@ -318,17 +309,17 @@ if(PoliceMan==8)
     {
       Thief8();
       findTrain51();
-      Message1 = "Congratulations! You caught the thief 🤩!";
-      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message1 = "Congratulations! You save the robary 🤩!";
+      Message2 = "You found the precious jwellery on " + PoliceMan + "th index of the Box";
       Message3 = "Thief arrested!!"
     }
     else
     {
       findTrain51();
       findTrain80();
-       Message1 = "Oops!!🙊 try another compartment";
-      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[8] + "kg";
+       Message1 = "Oops!!🙊 this is not the box you are lookin' for.";
+      Message2 = "Box[" + PoliceMan + "] != Box of precious beads";
+      Message3 = "No. of Beads in currentBox: " + Weight[8] ;
       if(Weight[Thief]>Weight[8])
       {
         left = PoliceMan+1;
@@ -341,8 +332,8 @@ if(PoliceMan==8)
   }
   else{
     imp();
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
-    Message2 = "In Linear Search : Traversing is done Sequentially";
+    Message1 ="This is not the optimal way to reach the Target";
+    Message2 = " Binary Search : Works on Sorted Array : Works on Principle of Divide and Conquer";
     console.log("8 box");
   }
 }
@@ -353,17 +344,17 @@ const findId9 =  ()=>{
     {
       findTrain81();
       Thief9();
-      Message1 = "Congratulations! You caught the thief 🤩!";
-      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message1 = "Congratulations! You save the robary 🤩!";
+      Message2 = "You found the precious jwellery on " + PoliceMan + "th index of the Box";
       Message3 = "Thief arrested!!"
     }
     else
     {
       findTrain81();
       findTrain90();
-       Message1 = "Oops!!🙊 try another compartment";
-      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[9] + "kg";
+       Message1 = "Oops!!🙊 this is not the box you are lookin' for.";
+      Message2 = "Box[" + PoliceMan + "] != Box of precious beads";
+      Message3 =  "No. of Beads in currentBox: " + Weight[9] ;
       if(Weight[Thief]>Weight[9])
       {
         left = PoliceMan+1;
@@ -376,8 +367,8 @@ const findId9 =  ()=>{
   }
   else{
     imp();
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
-    Message2 = "In Linear Search : Traversing is done Sequentially";
+    Message1 ="This is not the optimal way to reach the Target";
+    Message2 = " Binary Search : Works on Sorted Array : Works on Principle of Divide and Conquer";
     console.log("9 box");
   }
 } 
@@ -388,17 +379,17 @@ if(PoliceMan==10)
     {
       findTrain91();
       Thief10();
-      Message1 = "Congratulations! You caught the thief 🤩!";
-      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message1 = "Congratulations! You save the robary 🤩!";
+      Message2 = "You found the precious jwellery on " + PoliceMan + "th index of the Box";
       Message3 = "Thief arrested!!"
     }
     else
     {
       findTrain91();
       findTrain100();
-       Message1 = "Oops!!🙊 try another compartment";
-      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[10] + "kg";
+       Message1 = "Oops!!🙊 this is not the box you are lookin' for.";
+      Message2 = "Box[" + PoliceMan + "] != Box of precious beads";
+      Message3 = "No. of Beads in currentBox: " + Weight[10] ;
       if(Weight[Thief]>Weight[10])
       {
         left = PoliceMan+1;
@@ -411,8 +402,8 @@ if(PoliceMan==10)
   }
   else{
     imp();
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
-    Message2 = "In Linear Search : Traversing is done Sequentially";
+    Message1 ="This is not the optimal way to reach the Target";
+    Message2 = " Binary Search : Works on Sorted Array : Works on Principle of Divide and Conquer";
     console.log("10 box");
   }
 } 
