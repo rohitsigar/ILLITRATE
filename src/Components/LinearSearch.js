@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import "./LinearSearch.css";
+import Card from "./Card";
+
+var Message1 = "Ready to Scratch a Lie! 😜";
+var Message2 = "Traverse the array";
+var Weight = "";
 var PoliceMan = 1;
 var Thief ; 
 var b = true;
@@ -45,10 +50,14 @@ const findId1 =  ()=>{
     if(Thief==1)
     {
       Thief1();
-    }
+      Message1 = "Congratulations! You caught the thief 🤩!";
+      Message2 = "You found the required number on " + PoliceMan + "st index of the Compartment";
+     }
     else
     {
       findTrain10();
+       Message1 = "Oops!!🙊 try another compartment";
+      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
       PoliceMan++;
     }
   }
@@ -60,16 +69,21 @@ const findId2 =  ()=>{
     {
       Thief2();
       findTrain11();
+      Message1 = "Congratulations! You caught the thief 🤩!";
+      Message2 = "You found the required number on " + PoliceMan + "nd index of the Compartment";
     }
     else
     {
       findTrain11();
       findTrain20();
+       Message1 = "Oops!!🙊 try another compartment";
+      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
       PoliceMan++;
     }
   }
   else{
-    console.log("you can not open it 2");
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
+    Message2 = "In Linear Search : Traversing is done Sequentially";
   }
 } 
 const findId3 =  ()=>{
@@ -79,16 +93,21 @@ if(PoliceMan==3)
     {
       Thief3();
       findTrain21();
+      Message1 = "Congratulations! You caught the thief 🤩!";
+      Message2 = "You found the required number on " + PoliceMan + "rd index of the Compartment";
     }
     else
     {
       findTrain21();
       findTrain30();
+       Message1 = "Oops!!🙊 try another compartment";
+      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
       PoliceMan++;
     }
   }
   else{
-    console.log("you can not open it 3");
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
+    Message2 = "In Linear Search : Traversing is done Sequentially";
   }
 } 
 const findId4 =  ()=>{
@@ -98,16 +117,21 @@ if(PoliceMan==4)
     {
       Thief4();
       findTrain31();
+      Message1 = "Congratulations! You caught the thief 🤩!";
+      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
     }
     else
     {
       findTrain31();
       findTrain40();
+       Message1 = "Oops!!🙊 try another compartment";
+      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
       PoliceMan++;
     }
   }
   else{
-    console.log("you can not open it 4");
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
+    Message2 = "In Linear Search : Traversing is done Sequentially";
   }
 } 
 const findId5 =  ()=>{
@@ -117,16 +141,21 @@ if(PoliceMan==5)
     {
       findTrain41();
       Thief5();
+      Message1 = "Congratulations! You caught the thief 🤩!";
+      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
     }
     else
     {
       findTrain41();
       findTrain50();
+       Message1 = "Oops!!🙊 try another compartment";
+      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
       PoliceMan++;
     }
   }
   else{
-    console.log("you can not open it 5");
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
+    Message2 = "In Linear Search : Traversing is done Sequentially";
   }
 } 
 const findId6 =  ()=>{
@@ -136,16 +165,21 @@ if(PoliceMan==6)
     {
       Thief6();
       findTrain51();
+      Message1 = "Congratulations! You caught the thief 🤩!";
+      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
     }
     else
     {
       findTrain51();
       findTrain60();
+       Message1 = "Oops!!🙊 try another compartment";
+      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
       PoliceMan++;
     }
   }
   else{
-    console.log("you can not open it 6");
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
+    Message2 = "In Linear Search : Traversing is done Sequentially";
   }
 } 
 const findId7 =  ()=>{
@@ -155,16 +189,21 @@ if(PoliceMan==7)
     {
       Thief7();
       findTrain61();
+      Message1 = "Congratulations! You caught the thief 🤩!";
+      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
     }
     else
     {
       findTrain61();
       findTrain70();
+       Message1 = "Oops!!🙊 try another compartment";
+      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
       PoliceMan++;
     }
   }
   else{
-    console.log("you can not open it 7");
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
+    Message2 = "In Linear Search : Traversing is done Sequentially";
   }
 } 
 
@@ -175,16 +214,21 @@ if(PoliceMan==8)
     {
       Thief8();
       findTrain71();
+      Message1 = "Congratulations! You caught the thief 🤩!";
+      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
     }
     else
     {
       findTrain71();
       findTrain80();
+       Message1 = "Oops!!🙊 try another compartment";
+      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
       PoliceMan++;
     }
   }
   else{
-    console.log("you can not open it 8");
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
+    Message2 = "In Linear Search : Traversing is done Sequentially";
   }
 }
 const findId9 =  ()=>{
@@ -194,16 +238,23 @@ const findId9 =  ()=>{
     {
       findTrain81();
       Thief9();
+      Message1 = "Congratulations! You caught the thief 🤩!";
+      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
     }
     else
     {
       findTrain81();
       findTrain90();
+       Message1 = "Oops!!🙊 try another compartment";
+      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
       PoliceMan++;
     }
   }
   else{
-    console.log("you can not open it 9");
+    
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
+    Message2 = "In Linear Search : Traversing is done Sequentially";
+    console.log("gfadjhfjadhfiadfjai");
   }
 } 
 const findId10 =  ()=>{
@@ -213,16 +264,21 @@ if(PoliceMan==10)
     {
       findTrain91();
       Thief10();
+      Message1 = "Congratulations! You caught the thief 🤩!";
+      Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
     }
     else
     {
       findTrain91();
       findTrain100();
+       Message1 = "Oops!!🙊 try another compartment";
+      Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
       PoliceMan++;
     }
   }
   else{
-    console.log("you can not open it 10");
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
+    Message2 = "In Linear Search : Traversing is done Sequentially";
   }
 } 
 const findTrain10 = ()=>
@@ -346,6 +402,15 @@ const Thief10 = ()=>
   setPhoto10("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
 }
   return <div className="linearSearch">
+  <Card 
+    message={Message1}
+    weight="40"
+  />
+  <Card 
+    message={Message2}
+    weight="40"
+  />
+ 
     <button id="1" onClick ={findId1} className=" drum" >
     <img id="img"  src = {photo1}  className="image"  alt="/">
 
@@ -362,6 +427,9 @@ const Thief10 = ()=>
     <button id="10" onClick ={findId10} className=" drum">
       <img src={photo10} className="image" alt="/"></img>
     </button>
+
+  
+
   </div>;
 
 }
