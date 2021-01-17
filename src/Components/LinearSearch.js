@@ -243,7 +243,7 @@ const findTrain21 = ()=>
 }
 const findTrain30 = ()=>
 {
-  setPhoto3("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139655434_102333385185567_5971851827460419199_o.jpg?_nc_cat=103&ccb=2&_nc_sid=730e14&_nc_ohc=IwDQdDMx4LsAX_g4LTd&_nc_ht=scontent.fdel6-1.fna&oh=945bc1f6dcf39499c5c73c5e3c3b38a5&oe=60289998");
+  setPhoto3("http://clipart-library.com/images/8czKK6jqi.png");
 }
 const findTrain31 = ()=>
 {
@@ -267,7 +267,7 @@ const findTrain51 = ()=>
 }
 const findTrain60 = ()=>
 {
-  setPhoto6("https://i2.wp.com/ceklog.file:///C:/Users/rohit/OneDrive/Desktop/illitrate%20returns/ILLITRATE/src/Assets/Train4.png.com/wp-content/uploads/2013/02/firefox_2018-07-10_07-50-11.png");
+  setPhoto6("http://clipart-library.com/images/8czKK6jqi.png");
 }
 const findTrain61 = ()=>
 {
