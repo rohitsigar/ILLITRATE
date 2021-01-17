@@ -1,20 +1,25 @@
 import React, { useState } from "react";
 import "./LinearSearch.css";
 import Card from "./Card";
-
+var Weight = new Array(1,2,3,4,5,6,7,8,9,10,11);
+var Message3 = "Pasanger Weight : " + 0;
 var Message1 = "Ready to Scratch a Lie! 😜";
 var Message2 = "Traverse the array";
 var PoliceMan = 1;
 var Thief ; 
 var b = true;
 function trial(){
-  var Weight = new Array(1,2,3,4,5,6,7,8,9,10,11);
   for(var i=1; i<Weight.length;i++)
   {
     Weight[i] = Math.floor(Math.random()*100)
     while(Weight==0){
       Weight[i] = Math.floor(Math.random()*100)
     }
+  }
+  Weight.sort(function(a, b){return a - b});
+  for(var i=1;i<11;i++)
+  {
+    console.log(Weight[i]);
   }
    Thief = Math.floor(Math.random()*10)
    while(Thief==0){
@@ -25,30 +30,18 @@ function trial(){
 function LinearSearch() {
 const [values,setValues] = useState(0);
 // console.log(values);
-<<<<<<< HEAD
 const [photo1,setPhoto1] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
-const [photo2,setPhoto2] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
-const [photo3,setPhoto3] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139449278_102333688518870_1404870796970672459_o.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=iRKG8z4zL6wAX8GB1II&_nc_ht=scontent.fdel6-1.fna&oh=4360ae608aaff4844df403c013ee461a&oe=6029FC67");
-const [photo4,setPhoto4] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139568214_102333681852204_7529496654824637647_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=H-WaPE9SiugAX9LCeuE&_nc_ht=scontent.fdel6-1.fna&oh=e1f8103863a1242f96cb4c5dc52f88c5&oe=60275A9D");
-const [photo5,setPhoto5] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139948230_102333728518866_1162617909568603775_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=EN1Fqn87f70AX8uk4AW&_nc_ht=scontent.fdel6-1.fna&oh=319bdaa08714cd996cafd7cc4727bb98&oe=602A7529");
-const [photo6,setPhoto6] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
-const [photo7,setPhoto7] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139449278_102333688518870_1404870796970672459_o.jpg?_nc_cat=106&ccb=2&_nc_sid=730e14&_nc_ohc=iRKG8z4zL6wAX8GB1II&_nc_ht=scontent.fdel6-1.fna&oh=4360ae608aaff4844df403c013ee461a&oe=6029FC67");
-const [photo8,setPhoto8] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139568214_102333681852204_7529496654824637647_o.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=H-WaPE9SiugAX9LCeuE&_nc_ht=scontent.fdel6-1.fna&oh=e1f8103863a1242f96cb4c5dc52f88c5&oe=60275A9D");
-const [photo9,setPhoto9] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139948230_102333728518866_1162617909568603775_o.jpg?_nc_cat=104&ccb=2&_nc_sid=730e14&_nc_ohc=EN1Fqn87f70AX8uk4AW&_nc_ht=scontent.fdel6-1.fna&oh=319bdaa08714cd996cafd7cc4727bb98&oe=602A7529");
-const [photo10,setPhoto10] = useState("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
-const [photo11,setPhoto11] = useState("https://www.emoji.com/wp-content/uploads/filebase/icons/emoji-icon-glossy-05-05-travel-places-transport-ground-locomotive-variant-cartoon-72dpi-forPersonalUseOnly.png");
-=======
-const [photo1,setPhoto1] = useState("https://raw.githubusercontent.com/rohitsigar/ILLITRATE/Parul/src/Assets/1%20pasanger.png");
-const [photo2,setPhoto2] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
-const [photo3,setPhoto3] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
-const [photo4,setPhoto4] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
-const [photo5,setPhoto5] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
-const [photo6,setPhoto6] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
-const [photo7,setPhoto7] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
-const [photo8,setPhoto8] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
-const [photo9,setPhoto9] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
-const [photo10,setPhoto10] = useState("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
->>>>>>> edee3956bc17d8dfd80ca811187574d567bad952
+const [photo2,setPhoto2] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2.png?raw=true");
+const [photo3,setPhoto3] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
+const [photo4,setPhoto4] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train4.png?raw=true");
+const [photo5,setPhoto5] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
+const [photo6,setPhoto6] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2.png?raw=true");
+const [photo7,setPhoto7] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
+const [photo8,setPhoto8] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train4.png?raw=true");
+const [photo9,setPhoto9] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
+const [photo10,setPhoto10] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2.png?raw=true");
+const [photo11,setPhoto11] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/engine1.png?raw=true");
+
 
 if(b)
 {
@@ -71,6 +64,7 @@ const findId1 =  ()=>{
       findTrain10();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
+      Message3 = "Pasanger Weight : " + Weight[1];
       PoliceMan++;
     }
   }
@@ -91,6 +85,7 @@ const findId2 =  ()=>{
       findTrain20();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
+      Message3 = "Pasanger Weight : " + Weight[2];
       PoliceMan++;
     }
   }
@@ -117,6 +112,7 @@ if(PoliceMan==3)
       findTrain30();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
+      Message3 = "Pasanger Weight : " + Weight[3];
       PoliceMan++;
     }
   }
@@ -143,6 +139,7 @@ if(PoliceMan==4)
       findTrain40();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
+      Message3 = "Pasanger Weight : " + Weight[4];
       PoliceMan++;
     }
   }
@@ -169,6 +166,7 @@ if(PoliceMan==5)
       findTrain50();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
+      Message3 = "Pasanger Weight : " + Weight[5];
       PoliceMan++;
     }
   }
@@ -195,6 +193,7 @@ if(PoliceMan==6)
       findTrain60();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
+      Message3 = "Pasanger Weight : " + Weight[6];
       PoliceMan++;
     }
   }
@@ -221,6 +220,7 @@ if(PoliceMan==7)
       findTrain70();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
+      Message3 = "Pasanger Weight : " + Weight[7];
       PoliceMan++;
     }
   }
@@ -248,6 +248,7 @@ if(PoliceMan==8)
       findTrain80();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
+      Message3 = "Pasanger Weight : " + Weight[8];
       PoliceMan++;
     }
   }
@@ -274,6 +275,7 @@ const findId9 =  ()=>{
       findTrain90();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
+      Message3 = "Pasanger Weight : " + Weight[9];
       PoliceMan++;
     }
   }
@@ -293,6 +295,7 @@ if(PoliceMan==10)
       Thief10();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message3 = "Pasanger Weight : " + Weight[10];
     }
     else
     {
@@ -312,75 +315,75 @@ if(PoliceMan==10)
 } 
 const findTrain10 = ()=>
 {
-  setPhoto1("https://www.pinclipart.com/picdir/big/408-4085765_bald-head-old-man-cartoon-transparent-clipart.png");
+  setPhoto1("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/1%20pasanger.png?raw=true");
 }
 const findTrain11 = ()=>
 {
-  setPhoto1("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+  setPhoto1("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
 }
 const findTrain20 = ()=>
 {
-  setPhoto2("https://www.clipartmax.com/png/middle/11-113388_angry-woman-cartoon-angry-cartoon-woman.png");
+  setPhoto2("https://lh3.googleusercontent.com/proxy/Q7_XNlNRpScSJUEFbf0LoXfStI7-6g2oE3ougL8owo3nfUhxxxx1bil3_LL3bo8ZxvBfuM9SxttRBlVuqUs9otcKttEf4BHElMTmCZbWC-JNesG_ehOkGQJwUTkfaA");
 }
 const findTrain21 = ()=>
 {
-  setPhoto2("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+  setPhoto2("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2.png?raw=true");
 }
 const findTrain30 = ()=>
 {
-  setPhoto3("http://clipart-library.com/images/8czKK6jqi.png");
+  setPhoto3("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/3.png?raw=true");
 }
 const findTrain31 = ()=>
 {
-  setPhoto3("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+  setPhoto3("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train3.png?raw=true");
 }
 const findTrain40 = ()=>
 {
-  setPhoto4("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139526022_102333421852230_1219368759427146629_n.jpg?_nc_cat=105&ccb=2&_nc_sid=730e14&_nc_ohc=aoGjSUD9A8wAX_aBDWU&_nc_ht=scontent.fdel6-1.fna&oh=29c6bcefdf625cabee2377df046d0845&oe=60277D3C");
+  setPhoto4("https://lh3.googleusercontent.com/proxy/5QzDykO5tkNul2UMEJ-mfzo4M7fJoXzprIQWAaxaiC2SE7PdWf8nB6ryh41lEb_xUlA_sUJH5sX5yEaYH5IHwKhSD7vjA6w");
 }
 const findTrain41 = ()=>
 {
-  setPhoto4("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+  setPhoto4("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train4.png?raw=true");
 }
 const findTrain50 = ()=>
 {
-  setPhoto5("https://i2.wp.com/ceklog.file:///C:/Users/rohit/OneDrive/Desktop/illitrate%20returns/ILLITRATE/src/Assets/Train4.png.com/wp-content/uploads/2013/02/firefox_2018-07-10_07-50-11.png");
+  setPhoto5("https://i.dlpng.com/static/png/6480241_preview.png");
 }
 const findTrain51 = ()=>
 {
-  setPhoto5("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+  setPhoto5("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
 }
 const findTrain60 = ()=>
 {
-  setPhoto6("http://clipart-library.com/images/8czKK6jqi.png");
+  setPhoto6("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/6.png?raw=true");
 }
 const findTrain61 = ()=>
 {
-  setPhoto6("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+  setPhoto6("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2.png?raw=true");
 }
 const findTrain70 = ()=>
 {
-  setPhoto7("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+  setPhoto7("https://freepngimg.com/thumb/face/94497-brown-character-fictional-hair-royale-game-fortnite.png");
 }
 const findTrain71 = ()=>
 {
-  setPhoto7("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+  setPhoto7("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train3.png?raw=true");
 }
 const findTrain80 = ()=>
 {
-  setPhoto8("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+  setPhoto8("https://i.graphicmama.com/uploads/2019/1/5c51a37fc9afe-female-hippo-cartoon-character.png");
 }
 const findTrain81 = ()=>
 {
-  setPhoto8("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+  setPhoto8("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train4.png?raw=true");
 }
 const findTrain90 = ()=>
 {
-  setPhoto9("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+  setPhoto9("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/motu.png?raw=true");
 }
 const findTrain91 = ()=>
 {
-  setPhoto9("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+  setPhoto9("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
 }
 const findTrain100 = ()=>
 {
@@ -388,57 +391,57 @@ const findTrain100 = ()=>
 }
 const findTrain101 = ()=>
 {
-  setPhoto10("https://www.seekpng.com/png/full/212-2126964_rail-transport-train-passenger-car-goods-wagon-caboose.png");
+  setPhoto10("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2.png?raw=true");
 }
 const Thief1 = ()=>
 {
-  setPhoto1("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
+  setPhoto1("https://pngimg.com/uploads/thief/thief_PNG42.png");
 }
 const Thief2 = ()=>
 {
-  setPhoto2("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
+  setPhoto2("https://pngimg.com/uploads/thief/thief_PNG42.png");
 }
 const Thief3 = ()=>
 {
-  setPhoto3("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
+  setPhoto3("https://pngimg.com/uploads/thief/thief_PNG42.png");
 }
 const Thief4 = ()=>
 {
-  setPhoto4("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
+  setPhoto4("https://pngimg.com/uploads/thief/thief_PNG42.png");
 }
 const Thief5 = ()=>
 {
-  setPhoto5("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
+  setPhoto5("https://pngimg.com/uploads/thief/thief_PNG42.png");
 }
 const Thief6 = ()=>
 {
-  setPhoto6("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
+  setPhoto6("https://pngimg.com/uploads/thief/thief_PNG42.png");
 }
 const Thief7 = ()=>
 {
-  setPhoto7("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
+  setPhoto7("https://pngimg.com/uploads/thief/thief_PNG42.png");
 }
 const Thief8 = ()=>
 {
-  setPhoto8("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
+  setPhoto8("https://pngimg.com/uploads/thief/thief_PNG42.png");
 }
 const Thief9 = ()=>
 {
-  setPhoto9("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
+  setPhoto9("https://pngimg.com/uploads/thief/thief_PNG42.png");
 }
 const Thief10 = ()=>
 {
-  setPhoto10("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139854173_102333615185544_6350016762095232884_o.jpg?_nc_cat=100&ccb=2&_nc_sid=730e14&_nc_ohc=9JCqb7fCD38AX_m-dXo&_nc_ht=scontent.fdel6-1.fna&oh=85e4876ebe0a76ddfee42b855a1f2b36&oe=60286C66");
+  setPhoto10("https://pngimg.com/uploads/thief/thief_PNG42.png");
 }
 const imp = ()=>
 {
-  if(photo11=="https://www.emoji.com/wp-content/uploads/filebase/icons/emoji-icon-glossy-05-05-travel-places-transport-ground-locomotive-variant-cartoon-72dpi-forPersonalUseOnly.png")
+  if(photo11=="https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/engine1.png?raw=true")
   {
-    setPhoto11("https://bit.ly/3ijfzR8")
+    setPhoto11("https://bit.ly/3ijtQxj")
   }
   else
   {
-    setPhoto11("https://www.emoji.com/wp-content/uploads/filebase/icons/emoji-icon-glossy-05-05-travel-places-transport-ground-locomotive-variant-cartoon-72dpi-forPersonalUseOnly.png")
+    setPhoto11("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/engine1.png?raw=true")
   }
 }
   return <div className="linearSearch">
@@ -449,11 +452,13 @@ const imp = ()=>
   <Card 
     message={Message2}
   />
+  <Card 
+    message={Message3}
+  />
 
-  <img src = {photo11} alt = "/"></img>
 
   </div>
-  
+  <img className ="Engine" src = {photo11} alt = "/"></img>
     <button id="1" onClick ={findId1} className=" drum" >
     <img id="img"  src = {photo1}  className="image"  alt="/">
     </img>
