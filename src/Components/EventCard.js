@@ -2,11 +2,13 @@ import React from 'react'
 import "./EventCard.css"
 
 function EventCard({name,topic,startStory,storyimage}) {
+
     return (
         <div className="event event__card__wrapper col-lg-4 col-md-9 col-xs-11">
         <img
           className="event__image"
           alt="logo"
+
           src={storyimage}
         />
   
