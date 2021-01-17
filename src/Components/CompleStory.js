@@ -115,8 +115,10 @@ Find out the compartment’s number in which the thief is found.</p>
        <h4> Time Complexity </h4>
        <p classname="linear_timeCom">
        The time required to search an element using a linear search algorithm depends on the size of the list. Within the best-case situation, the component is present at the starting of
-        the list and within the worst-case, it is display at the end.
+        the list and within the worst-case, it is display at the end. <br></br><br></br>We can conclude that "Time Complexity" for linear Search is
+        <br></br><h3>Best: O(1) </h3><h3> Average: O(n) </h3><h3> Worst: O(n)</h3>
        </p>
+       <h6 className="linear__con">Overall Linear Search is an important concept to understand when it comes to algorithms.</h6>
     </div>
     </div>
   )
