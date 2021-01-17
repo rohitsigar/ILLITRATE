@@ -3,9 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Yusei+Magic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Molle:ital@1&family=Yusei+Magic&display=swap");
-.linearSearch {
+.linear__Search {
   /* background-color: #ffb26b; */
-  height: 1000vh;
+  height: auto;
   margin: auto;
   text-align: center;
   align-items: center;
@@ -206,4 +206,69 @@
 }
 .linear__car {
   flex: 1;
+}
+.linear__search {
+  height: auto;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.headCatch {
+  font-size: 90px;
+  font-weight: bolder;
+  color: #ff9a64;
+  font-family: "Chicle";
+}
+
+.linear__blog {
+  margin: 100px;
+}
+
+.linear__blog > h2 {
+  font-size: 110px;
+  font-weight: bolder;
+  color: #f8dc81;
+  font-family: "Chicle", cursive;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.linear__blog > p {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  text-align: start;
+}
+
+.problemStatement {
+  height: auto;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  border: 5px solid rgb(243, 212, 108);
+  border-radius: 3px;
+}
+.problemStatement > h1 {
+  font-weight: 600;
+  font-size: 50px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #f2e375;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.problemStatement > p {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  text-align: start;
 }

@@ -57,7 +57,9 @@ if(b)
 }
 console.log(Thief);
 console.log(PoliceMan);
-Thief = 10;
+
+//Thief=10;
+
 const findId1 =  ()=>{
   if(PoliceMan==1)
   {
@@ -101,7 +103,7 @@ const findId2 =  ()=>{
   else{
     console.log("2 box");
     imp();
-    Message1 = "Congratulations! You caught the thief 🤩!";
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
     Message2 = "You found the required number on " + PoliceMan + "rd index of the Compartment";
   }
 } 
@@ -242,9 +244,11 @@ if(PoliceMan==7)
 } 
 
 const findId8 =  ()=>{
+
 if(PoliceMan==8)
   {
     if(Weight[Thief]==Weight[8])
+
     {
       Thief8();
       findTrain71();
@@ -456,10 +460,10 @@ const imp = ()=>
   return <div className="linearSearch">
   <div className="CardCSS">
   <Card 
-    message={Message1}
+    message={`Result = ${Message1}`}
   />
   <Card 
-    message={Message2}
+    message={`Code Logic = ${Message2}`}
   />
   <Card 
     message={Message3}
@@ -485,7 +489,7 @@ const imp = ()=>
       <img src={photo10} className="image" alt="/"></img>
     </button>
  <div>
-   <h1 className="scrollDown" ref={commentSection}>gjhjdhidjwiofjeowd </h1>
+   <h1 className="scrollDown" ref={commentSection}>Click On the Compartment To Catch The Thief</h1>
  </div>
   
 
