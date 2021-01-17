@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./LinearSearch.css";
 import Card from "./Card";
 var Weight = new Array(1,2,3,4,5,6,7,8,9,10,11);
@@ -28,6 +28,13 @@ function trial(){
   var ThiefWeight = Weight[Thief];
 }
 function LinearSearch() {
+
+  const commentSection = useRef(null);
+  const findId = () => window.scrollTo({
+    top: commentSection.current.offSetTop,
+    behavior:"smooth"
+  });
+
 const [values,setValues] = useState(0);
 // console.log(values);
 const [photo1,setPhoto1] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
@@ -460,7 +467,7 @@ const imp = ()=>
 
   </div>
   <img className ="Engine" src = {photo11} alt = "/"></img>
-    <button id="1" onClick ={findId1} className=" drum" >
+    <button id="1" onClick ={findId1}  className=" drum" >
     <img id="img"  src = {photo1}  className="image"  alt="/">
     </img>
     </button>
@@ -476,7 +483,9 @@ const imp = ()=>
     <button id="10" onClick ={findId10} className=" drum">
       <img src={photo10} className="image" alt="/"></img>
     </button>
-
+ <div>
+   <h1 className="scrollDown" ref={commentSection}>gjhjdhidjwiofjeowd </h1>
+ </div>
   
 
   </div>;
