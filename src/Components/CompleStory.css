@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Chicle&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Molle:ital@1&family=Yusei+Magic&display=swap");
+.linearSearch {
+  /* background-color: #ffb26b; */
+  height: 1000vh;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.linear__header {
+  margin-top: 60px;
+}
+
+.black {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 95px;
+  margin-right: 400px;
+  font-family: "Yusei Magic", sans-serif;
+  margin-top: 50px;
+}
+.black1 {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 95px;
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.saffron {
+  color: #ff7b54;
+  display: block;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 150px;
+}
+.cop {
+  width: 12%;
+  height: auto;
+  display: inline-block;
+}
+
+.orange {
+  color: #ffd56b;
+  display: inline-block;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 180px;
+}
+
+.linear__story {
+  display: block;
+}
+.lineary_storyone {
+  display: flex;
+  height: auto;
+}
+
+.linear__start {
+  flex: 1.5;
+  text-align: start;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.linear__start > p {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+}
+
+.welcome {
+  font-size: 110px;
+  font-weight: bolder;
+  color: #f8dc81;
+  font-family: "Chicle", cursive;
+}
+.linear__police {
+  flex: 1;
+  width: 50%;
+  height: auto;
+}
+.journey {
+  color: #61b15a;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+.town {
+  color: #fc8621;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+.terror {
+  color: #fcf876;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+.linear_storytwo {
+  display: flex;
+  height: auto;
+  margin: 100px;
+}
+.linear__runthief {
+  flex: 0.6;
+}
+.thiefRun {
+  width: 100%;
+}
+.linear__mid {
+  flex: 1;
+}
+
+.adven {
+  color: #f80790;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+.day {
+  color: #fcf876;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+.robbery {
+  color: #ff7272;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+.cash {
+  color: #649d66;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+.support {
+  color: #856c8b;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 50px;
+  font-weight: 1000;
+}
+.linear__mid > p {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  text-align: end;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+.linear__run > p {
+  font-weight: 600;
+  font-size: 40px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  text-align: start;
+  margin-right: 50px;
+
+  margin-top: 100px;
+  flex: 1;
+}
+
+.track {
+  color: #f5b971;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+.rush {
+  color: #ff6666;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+.challenge {
+  color: #f3fe7e;
+  font-family: "Yusei Magic", sans-serif;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+.linear_storythree {
+  display: flex;
+  margin: 100px;
+}
+
+.linear__run {
+  flex: 1;
+}
+.linear__car {
+  flex: 1;
+}
