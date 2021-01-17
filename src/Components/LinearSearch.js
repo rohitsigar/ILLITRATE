@@ -48,6 +48,7 @@ function LinearSearch() {
   const [photo11, setPhoto11] = useState("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/engine1.png?raw=true");
 
 
+<<<<<<< HEAD
   if (b) {
     trial();
     b = false;
@@ -60,6 +61,26 @@ function LinearSearch() {
         Thief1();
         Message1 = "Congratulations! You caught the thief 🤩!";
         Message2 = "You found the required number on " + PoliceMan + "st index of the Compartment";
+=======
+if(b)
+{
+  trial();
+  b = false;
+}
+console.log(Thief);
+console.log(PoliceMan);
+
+//Thief=10;
+
+const findId1 =  ()=>{
+  if(PoliceMan==1)
+  {
+    if(Weight[Thief]==Weight[1])
+    {
+      Thief1();
+      Message1 = "Congratulations! You caught the thief 🤩!";
+      Message2 = "You found the required number on " + PoliceMan + "st index of the Compartment";
+>>>>>>> 147ea159095627620a3e25eddb4a00c7a06559e3
 
       }
       else {
@@ -88,9 +109,27 @@ function LinearSearch() {
         PoliceMan++;
       }
     }
+<<<<<<< HEAD
     else {
       console.log("2 box");
       imp();
+=======
+  }
+  else{
+    console.log("2 box");
+    imp();
+    Message1 = "PoliceMan is not reached to this Compartment Yet!";
+    Message2 = "You found the required number on " + PoliceMan + "rd index of the Compartment";
+  }
+} 
+const findId3 =  ()=>{
+if(PoliceMan==3)
+  {
+    if(Weight[Thief]==Weight[3])
+    {
+      Thief3();
+      findTrain21();
+>>>>>>> 147ea159095627620a3e25eddb4a00c7a06559e3
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "rd index of the Compartment";
     }
@@ -216,6 +255,7 @@ function LinearSearch() {
     }
   }
 
+<<<<<<< HEAD
   const findId8 = () => {
     if (PoliceMan == 8) {
       if (Weight[Thief] == Weight[8]) {
@@ -234,6 +274,7 @@ function LinearSearch() {
           PoliceMan++;
         }
       }
+
     }
     else {
       imp();
@@ -293,8 +334,137 @@ function LinearSearch() {
   const findTrain10 = () => {
     setPhoto1("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/1%20pasanger.png?raw=true");
   }
+<<<<<<< HEAD
   const findTrain11 = () => {
     setPhoto1("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1.png?raw=true");
+=======
+} 
+const findTrain10 = ()=>
+{
+  setPhoto1("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/1%20pasanger.png?raw=true");
+}
+const findTrain11 = ()=>
+{
+  setPhoto1("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1Opacity%20(1).png?raw=true");
+}
+const findTrain20 = ()=>
+{
+  setPhoto2("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/2nd%20pasanger.png?raw=true");
+}
+const findTrain21 = ()=>
+{
+  setPhoto2("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2Opacity.png?raw=true");
+}
+const findTrain30 = ()=>
+{
+  setPhoto3("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/3.png?raw=true");
+}
+const findTrain31 = ()=>
+{
+  setPhoto3("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1Opacity%20(1).png?raw=true");
+}
+const findTrain40 = ()=>
+{
+  setPhoto4("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/4th%20pasanger.png?raw=true");
+}
+const findTrain41 = ()=>
+{
+  setPhoto4("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train4Opacity.png?raw=true");
+}
+const findTrain50 = ()=>
+{
+  setPhoto5("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/5th%20passenger.png?raw=true");
+}
+const findTrain51 = ()=>
+{
+  setPhoto5("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1Opacity%20(1).png?raw=true");
+}
+const findTrain60 = ()=>
+{
+  setPhoto6("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/6.png?raw=true");
+}
+const findTrain61 = ()=>
+{
+  setPhoto6("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2Opacity.png?raw=true");
+}
+const findTrain70 = ()=>
+{
+  setPhoto7("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/7th%20passenger.png?raw=true");
+}
+const findTrain71 = ()=>
+{
+  setPhoto7("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1Opacity%20(1).png?raw=true");
+}
+const findTrain80 = ()=>
+{
+  setPhoto8("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/8th%20passenger.png?raw=true");
+}
+const findTrain81 = ()=>
+{
+  setPhoto8("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train4Opacity.png?raw=true");
+}
+const findTrain90 = ()=>
+{
+  setPhoto9("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/motu.png?raw=true");
+}
+const findTrain91 = ()=>
+{
+  setPhoto9("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train1Opacity%20(1).png?raw=true");
+}
+const findTrain100 = ()=>
+{
+  setPhoto10("https://scontent.fdel6-1.fna.fbcdn.net/v/t1.0-9/139941229_102333658518873_3041693399418250157_o.jpg?_nc_cat=108&ccb=2&_nc_sid=730e14&_nc_ohc=9QrThqK6StcAX9JYt55&_nc_ht=scontent.fdel6-1.fna&oh=9d3f923a2eb2e0fb3033237a0ac7e24b&oe=6028DE6A");
+}
+const findTrain101 = ()=>
+{
+  setPhoto10("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/Train2Opacity.png?raw=true");
+}
+const Thief1 = ()=>
+{
+  setPhoto1("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
+}
+const Thief2 = ()=>
+{
+  setPhoto2("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
+}
+const Thief3 = ()=>
+{
+  setPhoto3("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
+}
+const Thief4 = ()=>
+{
+  setPhoto4("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
+}
+const Thief5 = ()=>
+{
+  setPhoto5("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
+}
+const Thief6 = ()=>
+{
+  setPhoto6("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
+}
+const Thief7 = ()=>
+{
+  setPhoto7("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
+}
+const Thief8 = ()=>
+{
+  setPhoto8("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
+}
+const Thief9 = ()=>
+{
+  setPhoto9("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
+}
+const Thief10 = ()=>
+{
+  setPhoto10("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
+}
+const imp = ()=>
+{
+  if(photo11=="https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/engine1.png?raw=true")
+  {
+    setPhoto11("https://bit.ly/3ijtQxj")
+>>>>>>> 147ea159095627620a3e25eddb4a00c7a06559e3
   }
   const findTrain20 = () => {
     setPhoto2("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/2nd%20pasanger.png?raw=true");
@@ -389,6 +559,7 @@ function LinearSearch() {
     }
   }
   return <div className="linearSearch">
+<<<<<<< HEAD
     <div className="CardCSS">
       <Card
         message={Message1}
@@ -399,6 +570,18 @@ function LinearSearch() {
       <Card
         message={Message3}
       />
+=======
+  <div className="CardCSS">
+  <Card 
+    message={`Result = ${Message1}`}
+  />
+  <Card 
+    message={`Code Logic = ${Message2}`}
+  />
+  <Card 
+    message={Message3}
+  />
+>>>>>>> 147ea159095627620a3e25eddb4a00c7a06559e3
 
 
     </div>
@@ -419,9 +602,16 @@ function LinearSearch() {
     <button id="10" onClick={findId10} className=" drum">
       <img src={photo10} className="image" alt="/"></img>
     </button>
+<<<<<<< HEAD
 
 
 
+=======
+ <div>
+   <h1 className="scrollDown" ref={commentSection}>Click On the Compartment To Catch The Thief</h1>
+ </div>
+  
+>>>>>>> 147ea159095627620a3e25eddb4a00c7a06559e3
 
   </div>;
 

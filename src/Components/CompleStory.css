@@ -3,9 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Yusei+Magic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Molle:ital@1&family=Yusei+Magic&display=swap");
-.linearSearch {
-  /* background-color: #ffb26b; */
-  height: 1000vh;
+.linear__Search {
+  /* background-color: gray; */
+  height: auto;
   margin: auto;
   text-align: center;
   align-items: center;
@@ -207,3 +207,144 @@
 .linear__car {
   flex: 1;
 }
+.linear__search {
+  height: auto;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.headCatch {
+  font-size: 90px;
+  font-weight: bolder;
+  color: #ff9a64;
+  font-family: "Chicle";
+}
+
+.linear__blog{
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  animation: ease-in;
+  transition: 0.5s;
+  margin: 150px;
+  padding: 70px;
+
+}
+
+.linear__blog:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+  
+}
+
+.linear__blog > h2 {
+  font-size: 110px;
+  font-weight: bolder;
+  color: #184d47;
+  font-family: "Chicle", cursive;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.linear__blog > p {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+}
+
+.linear__blog > h4{
+  font-size: 80px;
+  font-weight: bolder;
+  color: #184d47;
+  font-family: "Chicle", cursive;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.linear__blog ul{
+   padding: 10px;
+   padding-left: 50px;
+   font-size: 40px;
+   color: gray ;
+}
+
+.linear_step{
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+  padding-bottom: 10px;
+}
+
+.linear__code{
+  width: 50%;
+  margin: 30px;
+}
+
+.linear_ques{
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.linear_think{
+   color: #184d47;
+}
+
+.linear_timeCom{
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #929aab;
+  text-align: start;
+}
+
+.linear__con{
+  font-size: 40px;
+  color: #184d47;
+  font-family: "Ubuntu", sans-serif;
+  text-align: start;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+
+}
+
+.problemStatement {
+  height: auto;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  border: 5px solid rgb(243, 212, 108);
+  border-radius: 3px;
+}
+.problemStatement > h1 {
+  font-weight: 600;
+  font-size: 50px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #f2e375;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.problemStatement > p {
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #eff7e1;
+  text-align: start;
+}
+
