@@ -11,13 +11,6 @@ import Algo from "./Components/Algo";
 import About from "./Components/About";
 import puzzle from "./Assets/Puzzle.png";
 import cube from "./Assets/cube.png";
-
-<<<<<<< HEAD
-import ScrollAnimation from "react-animate-on-scroll";
-=======
-
-
->>>>>>> 4cbe065cbd66907369b4529b62d93e882d2956cf
 function App() {
   return (
     <Router>
