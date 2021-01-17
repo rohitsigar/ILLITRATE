@@ -1,0 +1,49 @@
+.algo {
+  margin-top: 60px;
+  overflow: hidden;
+}
+.algo__body {
+  display: flex;
+}
+.algo__right {
+  flex: 1;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.algo__right > h1 {
+  font-weight: 800;
+  font-size: 80px;
+  padding: 20px;
+  text-align: start;
+  color: rgb(238, 191, 119);
+}
+.algo__right > p {
+  font-size: 25px;
+  padding: 20px;
+  text-align: start;
+  font-weight: 600;
+  color: rgb(170, 170, 170);
+}
+
+.algo__left {
+  position: relative;
+  height: auto;
+  flex: 1;
+  width: 40vw;
+  margin-left: 50px;
+  object-fit: contain;
+  overflow: hidden;
+}
+.algo__bottom {
+  margin-bottom: 50px;
+}
+.algo__bottom > h1 {
+  font-size: 80px;
+  padding: 20px;
+  text-align: center;
+  font-weight: 800;
+  color: rgb(238, 191, 119);
+}
