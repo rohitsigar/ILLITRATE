@@ -92,16 +92,16 @@ Find out the compartment’s number in which the thief is found.</p>
        <h4> Approach </h4>
        <ul>
          <li>
-           <p className="linear_stepone">Sequentially move through the array from the leftmost side and start comparing the value
+           <p className="linear_step">Sequentially move through the array from the leftmost side and start comparing the value
             you want to search (let x) with each element of array.</p>
          </li>
          <li>
-           <p className="linear_steptwo">
+           <p className="linear_step">
            If x matches with an element then return the index.
            </p>
          </li>
          <li>
-           <p className="linear_stepthree">
+           <p className="linear_step">
            If x does not match with any of the elements then return -1.
            </p>
          </li>
