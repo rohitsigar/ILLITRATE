@@ -3,6 +3,9 @@ import "./BeadStory.css";
 import Lottie from "react-lottie";
 import diamond from "../Lottie/diamond.json";
 import pearl from "../Lottie/pearl.json";
+import fast from "../Lottie/fastcar.json";
+
+import BinarySearch from "./BinarySearch";
 
 export default function BeadStory() {
   return (
@@ -34,6 +37,8 @@ export default function BeadStory() {
             </div>
           </div>
           <div className="binary_story">
+          <img className="diamond_storypartone" src="https://github.com/rohitsigar/ILLITRATE/blob/master/src/Assets/Jwelry.png?raw=true" />
+
            <div className="binary_midway">
              <p>
              One day the people of that place held a <span classname="meeting">meeting</span> and discuss among 
@@ -41,9 +46,6 @@ export default function BeadStory() {
               world so that they get overwhelmed by seeing the real gemstones of our world.  
               Where it is <span classname="good">good, </span>, there is always a <span classname="bad">bad</span>. 
              </p>
-             </div>
-             <div className="diamond_storypartone">
-
              </div>
           </div>
           <div className="binary_story">
@@ -58,21 +60,61 @@ export default function BeadStory() {
               </p>
            </div>
 
-           <div className="diamond_storyparttwo">
-
-             </div>
+     
+             <img className="diamond_storyparttwo" src="https://github.com/rohitsigar/ILLITRATE/blob/master/src/Assets/Detective.png?raw=true" />
+          
            
            </div>
           <div className="binary_story">
+          <div className="diamond_game">
+            <Lottie options={{ animationData:fast,}} />
+             </div>
             <div className="binary_last">
               <p>So here your <span className="role">role</span> came into play, you have to <span classname="reach">reach out</span>
                to that particular string of beads before the robbers went.
                <span className="hint_statement">( <span className="hint">Hint:</span> Reach at the minimum time )</span>
               </p>
             </div>
-            <div className="diamond_game">
+            </div>
+            </div>
 
-             </div>
+            <div className="bead__tsk">
+              Your Task Begins
+            </div>
+            <div className="problemStatement">
+        <h1>Problem:</h1>
+        <p>the train has 10 compartments, and there is a condition that in each compartment, there is only one passenger. The thief hid in Tran's compartment. You i.e. chief knew the weight of every passenger and thief. 
+Find out the compartment’s number in which the thief is found.</p>
+      </div>
+
+
+
+
+
+
+
+
+            <div className="beads__beads">
+              <BinarySearch />
+            </div>
+
+
+
+            <div className="beads__click">
+              Click on the Box To Check For Beads
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
          <div className="binary__blog">
         <h2>Binary Search</h2>
         <p>

@@ -5,6 +5,7 @@ var Weight = new Array(1,2,3,4,5,6,7,8,9,10,11);
 var Message3 = "Weight";
 var Message1 = "Ready to Scratch a Lie! 😜";
 var Message2 = "Traverse the array";
+var Message4 = "";
 var PoliceMan = 1;
 var Thief ; 
 var b = true;
@@ -54,12 +55,10 @@ if(b)
 {
   trial();
   b = false;
+  Message4 = "Weight of thief: " + Weight[Thief];
 }
 console.log(Thief);
 console.log(PoliceMan);
-
-//Thief=10;
-
 const findId1 =  ()=>{
   if(PoliceMan==1)
   {
@@ -68,6 +67,7 @@ const findId1 =  ()=>{
       Thief1();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "st index of the Compartment";
+      Message3 = "Passenger Weight : " + Weight[1] + " kg";
 
      }
     else
@@ -75,7 +75,7 @@ const findId1 =  ()=>{
       findTrain10();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[1] + "kg";
+      Message3 = "Passenger Weight : " + Weight[1] + " kg";
       PoliceMan++;
     }
   }
@@ -89,6 +89,7 @@ const findId2 =  ()=>{
       findTrain11();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "nd index of the Compartment";
+      Message3 = "Passenger Weight : " + Weight[2] + " kg";
     }
     else
     {
@@ -96,14 +97,14 @@ const findId2 =  ()=>{
       findTrain20();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[2] + "kg";
+      Message3 = "Passenger Weight : " + Weight[2] + " kg";
       PoliceMan++;
     }
   }
   else{
     console.log("2 box");
     imp();
-    Message1 = "PoliceMan is not reached to this Compartment Yet!";
+    Message1 = "Congratulations! You caught the thief 🤩!";
     Message2 = "You found the required number on " + PoliceMan + "rd index of the Compartment";
   }
 } 
@@ -116,6 +117,7 @@ if(PoliceMan==3)
       findTrain21();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "rd index of the Compartment";
+      Message3 = "Passenger Weight : " + Weight[3] + " kg";
     }
     else
     {
@@ -123,7 +125,7 @@ if(PoliceMan==3)
       findTrain30();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[3] + "kg";
+      Message3 = "Passenger Weight : " + Weight[3] + " kg";
       PoliceMan++;
     }
   }
@@ -143,6 +145,7 @@ if(PoliceMan==4)
       findTrain31();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message3 = "Passenger Weight : " + Weight[4] + " kg";
     }
     else
     {
@@ -150,7 +153,7 @@ if(PoliceMan==4)
       findTrain40();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[4] + "kg";
+      Message3 = "Passenger Weight : " + Weight[4] + " kg";
       PoliceMan++;
     }
   }
@@ -170,6 +173,7 @@ if(PoliceMan==5)
       Thief5();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message3 = "Passenger Weight : " + Weight[5] + " kg";
     }
     else
     {
@@ -177,7 +181,7 @@ if(PoliceMan==5)
       findTrain50();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[5] + "kg";
+      Message3 = "Passenger Weight : " + Weight[5] + " kg";
       PoliceMan++;
     }
   }
@@ -197,6 +201,7 @@ if(PoliceMan==6)
       findTrain51();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message3 = "Passenger Weight : " + Weight[6] + " kg";
     }
     else
     {
@@ -204,7 +209,7 @@ if(PoliceMan==6)
       findTrain60();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[6] + "kg";
+      Message3 = "Passenger Weight : " + Weight[6] + " kg";
       PoliceMan++;
     }
   }
@@ -224,6 +229,7 @@ if(PoliceMan==7)
       findTrain61();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message3 = "Passenger Weight : " + Weight[7] + " kg";
     }
     else
     {
@@ -231,7 +237,7 @@ if(PoliceMan==7)
       findTrain70();
        Message1 = "Oops!!🙊 try another compartment";
       Message2 = "Compartment[" + PoliceMan + "] != Weight of the Thief";
-      Message3 = "Passenger Weight : " + Weight[7] + "kg";
+      Message3 = "Passenger Weight : " + Weight[7] + " kg";
       PoliceMan++;
     }
   }
@@ -244,18 +250,15 @@ if(PoliceMan==7)
 } 
 
 const findId8 =  ()=>{
-
-
-    if(PoliceMan==8)
-
+if(PoliceMan==8)
   {
     if(Weight[Thief]==Weight[8])
-
     {
       Thief8();
       findTrain71();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message3 = "Passenger Weight : " + Weight[8] + " kg";
     }
     else
     {
@@ -283,6 +286,7 @@ const findId9 =  ()=>{
       Thief9();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "th index of the Compartment";
+      Message3 = "Passenger Weight : " + Weight[9] + " kg";
     }
     else
     {
@@ -462,10 +466,13 @@ const imp = ()=>
   return <div className="linearSearch">
   <div className="CardCSS">
   <Card 
-    message={`Result = ${Message1}`}
+    message={Message4}
   />
   <Card 
-    message={`Code Logic = ${Message2}`}
+    message={Message1}
+  />
+  <Card 
+    message={Message2}
   />
   <Card 
     message={Message3}
@@ -492,7 +499,7 @@ const imp = ()=>
       <img src={photo10} className="image" alt="/"></img>
     </button>
  <div>
-   <h1 className="scrollDown" ref={commentSection}>Click On the Compartment To Catch The Thief</h1>
+   <h1 className="scrollDown" ref={commentSection}>gjhjdhidjwiofjeowd </h1>
  </div>
   
 
