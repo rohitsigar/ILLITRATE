@@ -17,10 +17,6 @@ import puzzle from "./Assets/Puzzle.png";
 import cube from "./Assets/cube.png";
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 147ea159095627620a3e25eddb4a00c7a06559e3
 function App() {
   return (
     <Router>
