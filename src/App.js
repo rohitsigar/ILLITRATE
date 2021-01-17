@@ -17,8 +17,6 @@ import puzzle from "./Assets/Puzzle.png";
 import cube from "./Assets/cube.png";
 
 
-import ScrollAnimation from "react-animate-on-scroll";
-
 
 function App() {
   return (

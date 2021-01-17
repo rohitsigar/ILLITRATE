@@ -1,23 +1,12 @@
-
 .linearSearch {
+  height: auto;
+  margin: 10px;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .drum {
-
-    font-size: 5rem;
-    font-family: 'Arvo', cursive;
-    line-height: 2;
-    font-weight: 900;
-   
-  
-    border-radius: 15px;
-    display: inline-block;
-    width: 130px;
-    height: 130px;
-    text-align: center;
-    margin: 10px; */
-
   background-color: transparent;
   outline: none;
   border: none;
@@ -28,18 +17,23 @@
 }
 
 .image {
-  padding: 0;
   width: 130px;
   height: 130px;
 }
 
 .CardCSS {
-  margin-left: 50%;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .scrollDown {
-  margin-top: 40%;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 30px;
+  max-width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  color: #a5a5a5;
 }
-

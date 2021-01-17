@@ -1,17 +1,18 @@
 import React from 'react'
 import "./EventCard.css"
 
-function EventCard({name,time,logo}) {
+function EventCard({name,topic,logo}) {
     return (
         <div className="event event__card__wrapper col-lg-4 col-md-9 col-xs-11">
         <img
           className="event__image"
           alt="logo"
-          src="https://dscwow.tech/images/events/day2/4.png"
+          src={logo}
         />
   
         <div className="event__card__content">
-        <div className="event__name">Algo tool box</div>  
+        <div className="event__name">{name}</div>  
+        <div className="event__timings">{topic}</div>
         <button className="watch__btn">
         Lets Start
         </button>
