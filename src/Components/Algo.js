@@ -35,22 +35,22 @@ Suspendisse rutrum, felis sed tincidunt consectetur, nunc enim vehicula neque, e
 
                 <Slider {...settings}>
                 <div>
-                    <EventCard />
+                    <EventCard topic="Smartly Save the city" name="Linear Search Algo"/>
                 </div>
                 <div>
-                <EventCard />
+                <EventCard topic="" name="" startStory="" />
                 </div>
                 <div>
-                <EventCard />
+                <EventCard topic="" name="" startStory=""/>
                 </div>
                 <div>
-                <EventCard />
+                <EventCard topic="" name="" startStory=""/>
                 </div>
                 <div>
-                <EventCard />
+                <EventCard topic="" name="" startStory=""/>
                 </div>
                 <div>
-                <EventCard />
+                <EventCard topic="" name="" startStory=""/>
                 </div>
                 </Slider>
         </div>

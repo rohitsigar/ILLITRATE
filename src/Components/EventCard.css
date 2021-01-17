@@ -79,3 +79,15 @@
 .event {
   margin: 20px;
 }
+
+.event__topic{
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.event__name{
+  font-size: 1%;
+  font-weight: lighter;
+  font-family:initial;
+}

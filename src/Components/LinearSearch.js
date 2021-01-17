@@ -242,6 +242,7 @@ if(PoliceMan==7)
 } 
 
 const findId8 =  ()=>{
+
     if(PoliceMan==8)
   {
     if(Weight[Thief]==Weight[8])    
