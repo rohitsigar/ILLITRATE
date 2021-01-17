@@ -58,7 +58,7 @@ const findId1 =  ()=>{
       Thief1();
       Message1 = "Congratulations! You caught the thief 🤩!";
       Message2 = "You found the required number on " + PoliceMan + "st index of the Compartment";
-      
+
      }
     else
     {
@@ -324,7 +324,7 @@ const findTrain11 = ()=>
 }
 const findTrain20 = ()=>
 {
-  setPhoto2("https://lh3.googleusercontent.com/proxy/Q7_XNlNRpScSJUEFbf0LoXfStI7-6g2oE3ougL8owo3nfUhxxxx1bil3_LL3bo8ZxvBfuM9SxttRBlVuqUs9otcKttEf4BHElMTmCZbWC-JNesG_ehOkGQJwUTkfaA");
+  setPhoto2("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/2nd%20pasanger.png?raw=true");
 }
 const findTrain21 = ()=>
 {
@@ -340,7 +340,7 @@ const findTrain31 = ()=>
 }
 const findTrain40 = ()=>
 {
-  setPhoto4("https://lh3.googleusercontent.com/proxy/5QzDykO5tkNul2UMEJ-mfzo4M7fJoXzprIQWAaxaiC2SE7PdWf8nB6ryh41lEb_xUlA_sUJH5sX5yEaYH5IHwKhSD7vjA6w");
+  setPhoto4("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/4th%20pasanger.png?raw=true");
 }
 const findTrain41 = ()=>
 {
@@ -348,7 +348,7 @@ const findTrain41 = ()=>
 }
 const findTrain50 = ()=>
 {
-  setPhoto5("https://i.dlpng.com/static/png/6480241_preview.png");
+  setPhoto5("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/5th%20passenger.png?raw=true");
 }
 const findTrain51 = ()=>
 {
@@ -364,7 +364,7 @@ const findTrain61 = ()=>
 }
 const findTrain70 = ()=>
 {
-  setPhoto7("https://freepngimg.com/thumb/face/94497-brown-character-fictional-hair-royale-game-fortnite.png");
+  setPhoto7("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/7th%20passenger.png?raw=true");
 }
 const findTrain71 = ()=>
 {
@@ -372,7 +372,7 @@ const findTrain71 = ()=>
 }
 const findTrain80 = ()=>
 {
-  setPhoto8("https://i.graphicmama.com/uploads/2019/1/5c51a37fc9afe-female-hippo-cartoon-character.png");
+  setPhoto8("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/8th%20passenger.png?raw=true");
 }
 const findTrain81 = ()=>
 {
@@ -396,43 +396,43 @@ const findTrain101 = ()=>
 }
 const Thief1 = ()=>
 {
-  setPhoto1("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto1("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief2 = ()=>
 {
-  setPhoto2("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto2("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief3 = ()=>
 {
-  setPhoto3("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto3("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief4 = ()=>
 {
-  setPhoto4("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto4("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief5 = ()=>
 {
-  setPhoto5("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto5("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief6 = ()=>
 {
-  setPhoto6("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto6("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief7 = ()=>
 {
-  setPhoto7("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto7("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief8 = ()=>
 {
-  setPhoto8("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto8("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief9 = ()=>
 {
-  setPhoto9("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto9("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const Thief10 = ()=>
 {
-  setPhoto10("https://pngimg.com/uploads/thief/thief_PNG42.png");
+  setPhoto10("https://github.com/rohitsigar/ILLITRATE/blob/Rohita/src/Assets/thief.png?raw=true");
 }
 const imp = ()=>
 {
