@@ -9,11 +9,13 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .binary_story {
-  margin: 100px;
   display: flex;
+  margin: 50px;
 }
 .binary_start {
   text-align: start;
@@ -33,7 +35,7 @@
   color: #07689f;
   font-size: 95px;
   font-family: "Yusei Magic", sans-serif;
-  margin-top: 50px;
+  margin-top: 160px;
 }
 .beady {
   color: #fdfdfd;
@@ -77,12 +79,14 @@
 
 /* mid part1 */
 
-.binary_midway {
+.binary_midway > p {
   font-weight: 600;
   font-size: 40px;
   max-width: 100%;
   font-family: "Ubuntu", sans-serif;
   color: #eff7e1;
+  text-align: start;
+  margin-top: 10%;
 }
 
 .detective {
@@ -99,6 +103,10 @@
 
 .escape {
   color: #000;
+}
+.diamond_storyparttwo {
+  height: 400px;
+  margin-top: 100px;
 }
 
 /* midpart2 */
@@ -119,10 +127,13 @@
 
 .binary_last {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 43px;
   max-width: 100%;
   font-family: "Ubuntu", sans-serif;
   color: #eff7e1;
+  flex: 1;
+  margin-top: 10%;
+  text-align: end;
 }
 
 .role {
@@ -142,4 +153,5 @@
 }
 
 .diamond_game {
+  flex: 0.7;
 }
