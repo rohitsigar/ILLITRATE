@@ -2,144 +2,138 @@
 @import url("https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Yusei+Magic&display=swap");
 
 .binary_search {
-  /* background-color: #f0c38e; */
-  height: auto;
-  margin: auto;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
 
-.binary_story {
-  margin: 100px;
-  display: flex;
-}
-.binary_start {
+    /* background-color: gray; */
+    height: auto;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .binary_story{
+    margin-top: 60px;
+  }
+
+  .mystery {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 95px;
+    font-family: "Yusei Magic", sans-serif;
+    margin-top: 50px;
+  }
+  .bead{
+    color: #ff7b54;
+    display: block;
+    font-family: "Yusei Magic", sans-serif;
+    font-size: 150px;
+  }
+
+  .diamond {
+    width: 12%;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .binary__code{
+    width: 50%;
+    margin: 30px;
+  }
+  
+  .binary_timeCom{
+    font-weight: 600;
+    font-size: 30px;
+    max-width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    color: #929aab;
+    text-align: start;
+  }
+
+  .binary__blog{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    animation: ease-in;
+    transition: 0.5s;
+    margin: 150px;
+    padding: 70px;
+  
+  }
+  
+  .binary__blog:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    
+  }
+  
+  .binary__blog > h2 {
+    font-size: 110px;
+    font-weight: bolder;
+    color: #83a95c;
+    font-family: "Chicle", cursive;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  
+  .binary__blog > p {
+    font-weight: 600;
+    font-size: 30px;
+    max-width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    color: #929aab;
+    text-align: start;
+  }
+  
+  .binary__blog > h4{
+    font-size: 80px;
+    font-weight: bolder;
+    color: #83a95c;
+    font-family: "Chicle", cursive;
+    text-align: start;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .binary__blog ul{
+     padding: 10px;
+     padding-left: 50px;
+     font-size: 40px;
+     color: gray ;
+  }
+  
+  .binary_step{
+    font-weight: 600;
+    font-size: 30px;
+    max-width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    color: #929aab;
+    text-align: start;
+    padding-bottom: 10px;
+  }
+
+  .binary_diff{
+    font-weight: 600;
+    font-size: 30px;
+    max-width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    color: #929aab;
+    text-align: start;
+  }
+
+  .binary__con{
+    font-size: 30px;
+  color: #83a95c;
+  font-family: "Ubuntu", sans-serif;
   text-align: start;
-  flex: 1;
-  margin-top: 50px;
-}
-.binary_start > p {
-  font-weight: 600;
-  font-size: 40px;
-  max-width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
   margin-top: 20px;
-  font-family: "Ubuntu", sans-serif;
-  color: #eff7e1;
-}
-.mystery {
-  display: block;
-  color: #07689f;
-  font-size: 95px;
-  font-family: "Yusei Magic", sans-serif;
-  margin-top: 50px;
-}
-.beady {
-  color: #fdfdfd;
-  display: inline-block;
-  font-size: 95px;
-  font-family: "Yusei Magic", sans-serif;
-}
-
-.diamond {
-  width: 20%;
-  height: auto;
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-}
-
-.diamond_area {
-  flex: 0.5;
-}
-/* top part */
-
-.hello {
-  color: #ffc93c;
-  font-weight: 800;
-  font-size: 60px;
-  max-width: 100%;
-  font-family: "Ubuntu", sans-serif;
-}
-
-.beautiful {
-  color: #54e346;
-}
-
-.gem {
-  color: #9ddfd3;
-}
-
-.string {
-  color: #ee6f57;
-}
-
-/* mid part1 */
-
-.binary_midway {
-  font-weight: 600;
-  font-size: 40px;
-  max-width: 100%;
-  font-family: "Ubuntu", sans-serif;
-  color: #eff7e1;
-}
-
-.detective {
-  color: #e79cc2;
-}
-
-.robber {
-  color: #c70039;
-}
-
-.x {
-  color: #50d890;
-}
-
-.escape {
-  color: #000;
-}
-
-/* midpart2 */
-.meeting {
-  color: #fa9579;
-}
-.fair {
-  color: #d6b0b1;
-}
-.good {
-  color: #d89216;
-}
-.bad {
-  color: #433d3c;
-}
-
-/* //last part */
-
-.binary_last {
-  font-weight: 600;
-  font-size: 40px;
-  max-width: 100%;
-  font-family: "Ubuntu", sans-serif;
-  color: #eff7e1;
-}
-
-.role {
-  color: #c56183;
-}
-
-.reach {
-  color: #d08752;
-}
-
-.hint_statement {
-  color: #799351;
-}
-
-.hint {
-  color: #ea5455;
-}
-
-.diamond_game {
-}
+  font-weight: bold;
+  padding: 10px;
+  }
