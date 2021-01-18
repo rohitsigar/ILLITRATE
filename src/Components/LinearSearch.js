@@ -58,6 +58,7 @@ if(b)
   Message4 = "Weight of thief: " + Weight[Thief];
 }
 console.log(Thief);
+Thief = 8;
 console.log(PoliceMan);
 const findId1 =  ()=>{
   if(PoliceMan==1)
