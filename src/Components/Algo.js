@@ -17,6 +17,7 @@ function Algo() {
     variableWidth: true,
     slidesToScroll: 3,
   };
+ 
   return (
     <div className="algo">
       <div className="algo__body">
@@ -38,11 +39,15 @@ function Algo() {
         <h1>Our Playlist</h1>
 
         <Slider {...settings}>
-          <div>
-            <EventCard topic="Bank locker Robbery" name="Linear Search Algo" />
+          <div className="train__select">
+            <Link to="/LinearSearch">
+            <EventCard  topic="Bank locker Robbery" name="Linear Search Algo" />
+            </Link>
           </div>
           <div>
+          <Link to="/BinarySearch">
             <EventCard topic="Precious gem Stolen" name="Binary Search Algo" />
+            </Link>
           </div>
           <div>
             <EventCard topic="Precious gem Stolen" name="Binary Search Algo" />

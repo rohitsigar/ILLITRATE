@@ -83,8 +83,7 @@ export default function BeadStory() {
             </div>
             <div className="problemStatement">
         <h1>Problem:</h1>
-        <p>the train has 10 compartments, and there is a condition that in each compartment, there is only one passenger. The thief hid in Tran's compartment. You i.e. chief knew the weight of every passenger and thief. 
-Find out the compartment’s number in which the thief is found.</p>
+        <p>There is 10 jewelry box, each is having a string of beads. Out of all the strings, there is an imposter i.e. precious jewelry is also set in the box. You are provided with the number of beads that jewelry is made of. Try to get the index number of the box out of the series in which that jewelry is placed.</p>
       </div>
 
 
