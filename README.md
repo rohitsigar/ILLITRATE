@@ -1,3 +1,7 @@
+Drive link for the idea ppt and a short vedio.
+
+https://drive.google.com/drive/folders/1X5OPgyGtLWkYzs5OqhKE16YSGcZvKhpn?usp=sharing
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
