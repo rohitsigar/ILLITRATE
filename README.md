@@ -1,6 +1,14 @@
-Drive link for the idea ppt and a short vedio.
+Drive link for the idea ppt and a short video.
 
 https://drive.google.com/drive/folders/1X5OPgyGtLWkYzs5OqhKE16YSGcZvKhpn?usp=sharing
+
+website Link 
+
+https://illitrate-d8949.web.app
+
+youtube video
+
+https://www.youtube.com/watch?v=2_lsfyeJtl4&feature=youtu.be
 
 # Getting Started with Create React App
 
