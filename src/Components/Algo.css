@@ -48,6 +48,9 @@
   color: rgb(238, 191, 119);
 }
 
-.lets_start{
+.lets_start {
+  text-decoration: none;
+}
+.train__select {
   text-decoration: none;
 }

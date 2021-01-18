@@ -69,14 +69,14 @@ export default function Home() {
                    animate={{opacity:1}}
                    transition={{duration:1}}
                    >
-                Welcome to Puzzle!  
+                Welcome to ILLITRATE!  
                 </motion.h1>
                     <motion.p
                     initial={{opacity:0, x:-100}}
                    animate={{opacity:1, x:0}}
                     transition={{ duration: 1}}
                     >
-                    Journey of your Mind!!
+                    Visualizing Programming Conncepts !!
                     </motion.p>
                 </ColumnLeft>
                 <ColumnRight>
