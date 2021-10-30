@@ -1,13 +1,23 @@
-Drive link for the idea ppt and a short video.
+<h1>ILLITRATE</h1>
+<h2>Problem</h2>
+<p> As Programming is crucial in INNOVATION then why not INNOVATION in programming?
+Why the Coding Platforms are not Beginners friendly and sounds bit Scary?  
+ </p>
+ 
+ <h2>Solution</h2>
+ ILLITRATE is a iDea to provide all pre existing Knowledge of proGramming also connect all the Important and the complex topics with the real-life events which will make the learning more enthu and you will remember it forever. <br>
+ILLITRATE is unlikely  to existing platforms is more interactive and addictive due to it’s Animations based Puzzle with Real life Tales in which every episode of Tale give you a deep knowledge and better understanding of the Fancy words such as Algorithms.
 
+<br>
+<br>
+
+Drive link - 
 https://drive.google.com/drive/folders/1X5OPgyGtLWkYzs5OqhKE16YSGcZvKhpn?usp=sharing
 
-website Link 
-
+Website Link -
 https://illitrate-d8949.web.app
 
-youtube video
-
+Youtube video -
 https://www.youtube.com/watch?v=2_lsfyeJtl4&feature=youtu.be
 
 # Getting Started with Create React App
