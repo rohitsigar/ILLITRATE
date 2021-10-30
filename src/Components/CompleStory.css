@@ -20,7 +20,7 @@
 .black {
   display: block;
   color: rgb(255, 255, 255);
-  font-size: 95px;
+  font-size: 85px;
   margin-right: 400px;
   font-family: "Yusei Magic", sans-serif;
   margin-top: 50px;
@@ -36,7 +36,7 @@
   color: #ff7b54;
   display: block;
   font-family: "Yusei Magic", sans-serif;
-  font-size: 150px;
+  font-size: 140px;
 }
 .cop {
   width: 12%;
@@ -48,7 +48,7 @@
   color: #ffd56b;
   display: inline-block;
   font-family: "Yusei Magic", sans-serif;
-  font-size: 180px;
+  font-size: 170px;
 }
 
 .linear__story {
